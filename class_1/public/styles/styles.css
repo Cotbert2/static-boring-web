@@ -8,4 +8,19 @@
 
 .post-image{
     width: 35rem;
+    border-radius: 1rem;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+figcaption{
+    background-color: green;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
