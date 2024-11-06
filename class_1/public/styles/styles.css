@@ -24,3 +24,12 @@ figcaption{
     margin: 1rem;
     border-radius: 1rem;
 }
+
+.href p{
+    color: white;
+    text-decoration: none;
+}
+
+dt{
+    background-color: green;
+}
