@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    color: black;
+    margin: 0.3rem;
+    
+}
