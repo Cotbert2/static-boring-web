@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 1rem;
+}
+
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+
+.categorias{
+    width: 30%;
+    background-color: black;   
+
+
+}
+
+.categorias h1{
+    color: white;
+}
+
+.categorias a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .3rem;
+    background-color: green;
+    width: 50%;
+    border-radius: .3rem;
+}
+
+
+.categorias h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.content{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,71,77,1) 0%, rgba(6,80,94,1) 5%);
+    
+}
+
+.prod{
+    margin: 2rem;
+    width: 100%;
+    background-color: white;
+}
+.prod img{
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.prod button{
+    background-color: green;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+.productos{
+    width: 50%;
+    padding-left: 1rem ;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10rem;
+
+}
+
+
+.inventario{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    background-color: green;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+table tr th{
+    background-color: green;
+    color: white;
+    padding: 1rem;
+}
+
+table tr td{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.help{
+    position: fixed;
+    bottom:  0;
+    right: 0;
+    width: 30%;
+    height: 30%;
+    margin: 10%;
+    background-color: rgba(0,0,0,.5);
+
+    /*
+    width: 50%;
+    background-color: white;
+    margin: 1rem;
+    */
+}
+
+.help h1{
+    background-color: greens;
+}
+
+.attendance{
+    background-color: green;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.help img{
+    width: 50%;
+}
+
+.help input{
+    width: 50%;
+}
+
+.help button{
+    background-color: green;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+}
+
+.logo{
+    border: 2rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+
+.lref{
+    background-color: black;
+}
+

@@ -1,0 +1,53 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./assets/img/background.jpg'
+    );
+
+}
+
+.fullcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 30%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.login form{
+    padding: 1rem;
+    background-color: white;
+}
+
+.field{
+    /*delte top left and right borders*/
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 1rem;
+
+}
+
+.login-button{
+    width: 90%;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+
+}
+
+.login-button a{
+    text-decoration: none;
+}
