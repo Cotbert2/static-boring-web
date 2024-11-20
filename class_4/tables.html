@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    <link rel="stylesheet" href="./Css/Styes.css">
+    -->
+    <link rel="stylesheet" href="./Css/tables.css">
+    <title>Tables</title>
+</head>
+<body>
+    <head>
+        <h1>Tablas</h1>
+    </head>
+    <section>
+        <em>tables</em> Tag use to manage information in a table format.
+        <article>
+            <table frame="void" rules="rows"  class="table" cellspacing="2" cellpadding="2">
+                <caption>People List</caption>
+
+                <!--
+                    <colgroup>
+                        <col span="1" style="background-color: #f0f0f0;">
+                        <col span="1" style="background-color: #f0f0f0;">
+                        <col span="1" style="background-color: #f0f0f0;">
+                    </colgroup>
+                    -->
+                <thead>
+
+                    <tr>
+                        <th colspan="2">Nombre</th>
+                        <!--
+                            <th>Apellido</th>
+                            -->
+                            <th>Edad</th>
+                        </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>Mateo</td>
+                        <td>García</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Andrés</td>
+                        <td>Jiménez</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>María</td>
+                        <td>Jiménez</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                <td colspan="3">table footer for my page</td>
+                </tfoot>
+            </table>
+
+            <!--table foot-->
+        </article>
+    </section>
+
+
+
+    <form action="/submit" method="post">
+        <label for="username">First name:</label>
+        <input type="text" name="username" id="username" placeholder="username"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password"> <br>
+        <!--combo box-->
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select> <br>
+        <input type="submit"></input>
+    </form>
+</body>
+</html>
