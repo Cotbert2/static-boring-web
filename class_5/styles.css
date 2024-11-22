@@ -1,0 +1,40 @@
+body{
+    background-color: #cccccc;
+}
+
+header{
+    background-color: blueviolet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    height: 450px;
+    background-image: url('./assets/img/angular.png');
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.section2{
+    height: 100px;
+    background-image: url('./assets/img/papel.png');
+}
+
+.section3{
+    height: 500px;
+    background-image: url('./assets/img/angular_banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.section4{
+    height: 1000px;
+}
