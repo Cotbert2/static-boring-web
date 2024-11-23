@@ -47,6 +47,25 @@ body{
 }
 
 
+.view-details{
+    position: absolute;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 1rem;
+    display: none;
+}
+
+.view-details p{
+    color: white;
+    font-weight: 800;
+}
+
+
+
+.card-header img:hover + .view-details{
+    display: flex;
+}
+
 
 .card-content{
     width: 100%;
