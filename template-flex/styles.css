@@ -69,6 +69,14 @@ nav{
     padding: 1rem;
 }
 
+#info-personal{
+    height: 5rem;
+}
+
+article{
+    margin-bottom: 10rem;
+}
+
 
 .portair{
     width: 100px;
@@ -86,4 +94,15 @@ footer{
 
 .flex-image{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: stretch;
 }
+
+.image-flex{
+    flex: 1 1 100px;
+}
+
+
+
