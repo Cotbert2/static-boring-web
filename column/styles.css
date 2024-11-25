@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#news{
+    width:  500px;
+    padding: 10px;
+    border: 1px solid seagreen;
+
+
+    column-count: 4;
+    column-gap: 10px;
+    column-rule-style: dotted;
+    column-rule-color: slateblue;
+    column-rule-width: 10px;
+    column-rule: 1px solid purple;
+}

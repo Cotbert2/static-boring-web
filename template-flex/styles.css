@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    padding: 3rem;
+    background-color: rgb(14, 49, 168);
+    color: white;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(51, 87, 205);
+    padding-left: 2rem;
+
+}
+
+.main-container{
+    background-image: url('./assets/img/image.png');
+    width: 100%;
+    display: flex;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+
+.articles{
+    width: 50%;
+    margin-left: 10rem;
+}
+
+
+/**set dtae at the left site of the father container using position*/
+
+.date{
+    position: absolute;
+    left: 3rem;
+    width: 5%;
+    background-color: rgb(14, 49, 168);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+.portair{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(14, 49, 168);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.flex-image{
+    display: flex;
+}
