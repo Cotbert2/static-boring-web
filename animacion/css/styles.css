@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.circle{
+    background-color: #e8e8e8;
+    width: 100px;
+    height: 100px;
+    border-radius: 30rem;
+    animation: cambiarcolores 2s infinite;
+}
+
+@keyframes cambiarcolores{
+    0%{
+        background-color: #e8e8e8;
+    }
+
+    25%{
+        background-color: #ffa157;
+    }
+    50%{
+        background-color: #ffa175;
+
+    }
+    75%{
+        background-color: #ffa157;
+
+    }
+
+    100%{
+
+        background-color: #e8e8e8;
+    }
+}
+
+.avion{
+    animation: volar 5s infinite, cambiarcolores 5s infinite;
+    /* animation-timing-function: cubic-bezier(0.075,  0.82, 0.165, 1); */
+    /* animation-timing-function: steps(4, end); */
+    /* animation-timing-function: step-end; */
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: ease-in;
+}
+
+@keyframes volar{
+    0%{}
+
+    20%{
+        transform: translate(200px, 0px);
+    }
+
+    30%{
+        transform: translate(200px, 0px) rotate(90deg) scale(1.1);
+    }
+
+    40%{
+        transform: translate(200px, 200px) rotate(90deg) scale(0.5);
+    }
+
+
+    50%{
+        transform: translate(200px, 200px) rotate(180deg);
+    }
+
+}
