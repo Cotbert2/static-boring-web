@@ -26,25 +26,13 @@
 .container p{
     color: var(--light-text-color);
     font-size: 1.1em;
-    margin-top: 1.6%;
-}
-
-.container label{
-    line-height: 2em;
-    color: var(--title-color);
+    margin-top: 2%;
 }
 
 .container input{
-    padding: 1.3%;
     width: 65%;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid var(--title-color);
-    color: var(--title-color);
-}
-
-.container input:focus{
-    outline: none;
+    margin: 0;
+    margin: 3% 0;
 }
 
 .container input:hover{
@@ -61,6 +49,7 @@
 
 .remember{
     width: 68%;
+    margin: 1% 0;
 }
 
 .remember a{
@@ -87,7 +76,7 @@
 }
 
 .sign div{
-    margin-top: 2%;
+    margin: 0;
     padding-top: 1.3%;
     padding-bottom: 1.3%;
     text-align: center;
