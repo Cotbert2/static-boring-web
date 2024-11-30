@@ -111,6 +111,11 @@ body.dark-theme {
     background-color: #000;
 }
 
+.fw-100{
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
 
 a{
     color: var(--main-color);
