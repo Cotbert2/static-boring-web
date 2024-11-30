@@ -3,8 +3,109 @@
 /*Deivid*/
 
 :root {
-    --darkblue: #1d1a39;
-    --purple: #451952;
-    --wine: #662549;
 
+    /* Light  Mode */
+    --main-color       : #1083D6;
+    --title-color      : #2A3B47;
+    --text-color       : #697477;
+    --light-text-color : #A0A7AC;
+    --border-color     : #EFF3F5;
+    --container-color  : #FFFFFF;
+    --body-color       : #FBFBFE;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body.dark-theme {
+    --main-color       : #52A5E0;
+    --title-color      : #EFF3F5;
+    --text-color       : #C8CDD0;
+    --light-text-color : #A0A7AC;
+    --border-color     : #2A3B47;
+    --container-color  : #212E36;
+    --body-color       : #192229;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--body-color-light);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 10px;
+}
+
+
+
+/*Utilities*/
+
+.df{
+    display: flex;
+}
+
+.jc{
+    justify-content: center;
+}
+
+.jb{
+    justify-content: space-between;
+}
+
+.ja{
+    justify-content: space-around;
+}
+
+.je{
+    justify-content: flex-end;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-start{
+    align-items: flex-start;
+}
+
+.ai-end{
+    align-items: flex-end;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.witdh-100{
+    width: 100%;
+}
+
+
+
+
+.full-container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+header{
+    padding: .3rem;
+    background-color: var(--main-color);
+}
+
+header img{
+    width: 10rem;
+    border-radius: 1rem;
+    margin: 1rem;
 }
