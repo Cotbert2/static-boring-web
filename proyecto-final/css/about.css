@@ -1,4 +1,7 @@
 .cards{
     display: flex;
-    
+}
+
+.img-jeff{
+    height: 100%;
 }
