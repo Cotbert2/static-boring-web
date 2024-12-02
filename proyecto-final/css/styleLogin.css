@@ -14,8 +14,8 @@
 .container section{
     width: 70%;
     box-sizing: border-box;
-    padding-left: 17%;
-    padding-top: 2%;
+    padding-left: 20%;
+    padding-top: 1.5%;
 }
 
 .container h2{
@@ -50,6 +50,7 @@
 .remember{
     width: 68%;
     margin: 1% 0;
+    margin-bottom: 3%;
 }
 
 .remember a{
@@ -128,7 +129,7 @@
     font-size: 1em;
     padding-left: 30%;
     background-color: #000;
-    margin-bottom: 2%;
+    margin-bottom: 7%;
 }
 
 
@@ -150,6 +151,7 @@
 .sdj-icon{
     width: 12%;
     position: absolute;
-    left: 0;
-    top: 0;
+    border-radius: 10px;
+    left: 1.5%;
+    top: 4%;
 }
