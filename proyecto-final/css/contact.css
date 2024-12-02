@@ -8,26 +8,13 @@ body{
     width: 100%;
 }
 
-/*Section Icon*/
-.Incon-Group{
-    width: 12%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.Section-Icon{
-    background-color: var(--main-color);
-    height: 6.2rem;
-}
-
 /*Container-Cards*/
 .Container-Cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5rem;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 /*Cards*/
@@ -39,6 +26,7 @@ body{
     text-align: center;
     padding-top: 5rem;
     box-shadow: 0 0 5px black;
+    margin-right: 40px;
 }
 
 .Card1 p{
@@ -100,8 +88,31 @@ body{
     margin-top: 1.2rem;
 }
 
+.Contact-Order textarea{
+    border-radius: 18px;
+    padding: 10px 20px 5px 20px;
+    width: 21rem;
+    border: 1px solid var(--border-color);
+}
 
+.Contact-Order textarea:focus{
+    outline: none;
+    border: 1px solid var(--main-color);
+}
 
+footer i{
+    color: aliceblue;
+}
+
+/*Section map*/
+.Section-Map{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Section-Map h2{
+    margin-bottom: 20px;
+}
 
 
 

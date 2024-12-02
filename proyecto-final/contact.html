@@ -13,14 +13,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primeicons/7.0.0/primeicons.css"
+        integrity="sha512-TrpBJRPu1GwAu1cMDKEHnDbLCnciebxralpA806EEIdNpmbuCAi0hZRBdbNHVl2fgOW96lnYyLIPqY/iL2saNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
 <body>
     <div class="full-container">
-        <section class="Section-Icon">
-            <img class="Incon-Group" src="img/sdj-icon.jpg" alt="Ícono del grupo">
-        </section>
+        <header class="df">
+            <img src="./assets/img/logo.png" alt="">
+            <nav>
+                <ul class="df">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">Acerca de</a>
+                    </li>
+                    <li>
+                        <a href="./store.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contacto</a>
+                    </li>
+    
+                    <li>
+                        <a href="./login.html">identifícate</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <section class="Container-Cards">
             <section class="Card1">
                 <i class="fa-brands fa-whatsapp fa-4x"></i>
@@ -43,11 +72,12 @@
                 <a href="https://x.com/?lang=es">Ingresar a la red social del equipo</a>
             </section>
         </section>
+        
 
         <section class="Contact-Order">
             <section>
                 <input type="text" placeholder="Ingrese su e-mail">
-                <input type="text" placeholder="Ingrese su mensaje">
+                <textarea name="comment" id="comment" placeholder="Ingrese su mensaje" rows="10" cols="50"></textarea>
                 <button>Enviar</button>
             </section>
             <article>
@@ -58,7 +88,47 @@
                 </p>
             </article>
         </section>
-
+        <section class="Section-Map">
+            <h2>Encuentranos!!!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.758093603417!2d-78.44509422424889!3d-0.3148156353375434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd12538eb13b%3A0x907c61f1abbe45ab!2sUniversidad%20de%20las%20Fuerzas%20Armadas%20ESPE!5e0!3m2!1ses!2sec!4v1733153348226!5m2!1ses!2sec" width="80%" height="450" style="border:0; margin-bottom: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer>
+            <div class="df witdh-100 ja">
+                <section>
+                    <h1>SDJ</h1>
+                    <p>Software Development startup</p>
+                </section>
+    
+                <section>
+                    <h1>Desarrollo</h1>
+                    <p>Aplicaciones Distribuidas</p>
+                    <p>Móbil</p>
+                    <p>Web</p>
+                    <p>Escritorio</p>
+                    <p>Consultoría</p>
+                </section>
+    
+                <section>
+                    <h1>Built by:</h1>
+                    <p>Deivid Yepez</p>
+                    <p>Sebrux</p>
+                    <p>Cotbert</p>
+                </section>
+    
+            </div>
+            <hr>
+            <div class="social-media">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <!--copyright icon-->
+                <p id="rights">© 2021 SDJ. Todos los derechos reservados</p>
+            </div>
+        </footer>
     </div>
 </body>
 

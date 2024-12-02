@@ -294,3 +294,14 @@ i{
     bottom: -1rem;
     border-radius: 1rem;
 }
+
+/*Modificacion por Sebas*/
+footer{
+    background-color: var(--main-color);
+    color: var(--body-color);
+    padding: 1rem;
+    text-align: center;
+}
+hr{
+    margin-top: 2rem;
+}
