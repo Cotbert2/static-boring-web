@@ -67,7 +67,7 @@ aside img{
 .products img{
     width: 20rem;
     height: 15rem;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .products h4{
@@ -78,5 +78,41 @@ aside img{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: justify;
+}
+
+/*Tragets of products*/
+.Target{
+    border: 1px solid black;
+    padding: 2rem 2rem;
+    border-radius: 4%;
+}
+
+.heart1{
+    position: absolute;
+    left: 32.5rem;
+}
+
+.heart2{
+    position: absolute;
+    left: 72rem;
+}
+
+
+.heart3{
+    position: absolute;
+    right: 3.5rem;
+}
+
+i:hover{
+    transform: scale(1.2);
+    color: pink;
+}
+
+.outstanding{
+    position: absolute;
+    background-color: yellow;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 7rem;
+    border-radius: 5%;
 }
 
