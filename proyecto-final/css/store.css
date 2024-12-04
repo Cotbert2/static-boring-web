@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.introduction{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: var(--body-color  );
+    margin-bottom: 3rem;
+}
+
+article{
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0 8rem;
+}
+
+aside{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+aside img{
+    width: 100%;
+    margin-left: 3rem;
+}
+
+
+.introduction h2{
+    margin-top: 1rem;
+}
+
+.introduction p{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.introduction button{
+    margin-top: 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.introduction aside img{
+    height: 20rem;
+}
+
+.container-products h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.1rem;
+}
+
+.products{
+    display: flex;
+    text-align: center;
+}
+
+.products div{
+    margin: 2rem 2rem;
+}
+
+.products img{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.products h4{
+    margin-top: 1.5rem;
+}
+
+.products p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
