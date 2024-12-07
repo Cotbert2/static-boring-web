@@ -1,322 +1,125 @@
-<!--Acerca de-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="./assets/img/sdj-icon.jpg" type="img/png">
-    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/common.css">
-    <title>SDJ | About</title>
+    <title>SDJ | Acerca de</title>
+
+    <style>
+
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 5rem;
+            font-size: 2.5rem;
+            color: #0056b3;
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-text h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .about-text p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .about-images {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-images img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .clients {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .clients h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #0056b3;
+        }
+
+        .client-logos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .client-logos img {
+            width: 100px;
+            height: auto;
+            filter: grayscale(100%);
+            transition: all 0.3s ease;
+        }
+
+        .client-logos img:hover {
+            filter: none;
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 <body>
-    <header class="df">
-        <img src="./assets/img/logo.png" alt="">
-        <nav>
-            <ul class="df">
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html">Acerca de</a>
-                </li>
-                <li>
-                    <a href="./store.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contacto</a>
-                </li>
 
-                <li>
-                    <a href="./login.html">identifícate</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<div class="container">
+    <h1 class="section-title">Acerca de Nosotros</h1>
 
-    <section class="df ai-center jb">
-        <section class="card">
-            <div class="card-header">
-                <img src="./assets/img/mateo.jpg" alt="">
-                <h2 class="card-name">Mateo (Cotbert)</h2>
-            </div>
-            <div class="card-body">
-                <center>
-                    <strong>Desarrollador de Software</strong>
-                    <p>Llevo 4 años en el mundo TI, apasionado por el desarrollo y ciberseguridad</p>
-                </center>
+    <div class="about-content">
+        <div class="about-text">
+            <h2>Nuestra Experiencia</h2>
+            <p>Con más de 10 años en el mercado, nuestra empresa se ha posicionado como un referente en el desarrollo de software personalizado. Hemos ayudado a empresas de diversas industrias a optimizar sus procesos, mejorar la eficiencia operativa y alcanzar sus objetivos estratégicos.</p>
+            <p>Nos especializamos en la creación de soluciones innovadoras, utilizando las últimas tecnologías y metodologías ágiles para asegurar la entrega de proyectos de alta calidad, en tiempo y forma.</p>
+        </div>
 
-                <div class="width-100 df jc ai-center">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-github fa-2x"></i>
-                </div>
+        <div class="about-images">
+            <img src="https://via.placeholder.com/400x300" alt="Equipo de trabajo">
+        </div>
+    </div>
 
-                <a href="./assets/pdf/cv_garcia_mateo (1).pdf" download="cv_mateo.pdf" class="download-cv">
-                    <div class="df ai-center">
-                        <i class="fas fa-download fa-2x"></i>
-                        <p>Descarga mi CV</p>
-                    </div>
-                </a>
+    <div class="clients">
+        <h2>Clientes Satisfechos</h2>
+        <p>Nos enorgullece contar con la confianza de empresas nacionales e internacionales. Estos son algunos de los clientes que han depositado su confianza en nosotros:</p>
 
-            </div>
-        </section>
+        <div class="client-logos">
+            <img src="https://via.placeholder.com/100x100.png?text=Logo+1" alt="Logo cliente 1">
+            <img src="https://via.placeholder.com/100x100.png?text=Logo+2" alt="Logo cliente 2">
+            <img src="https://via.placeholder.com/100x100.png?text=Logo+3" alt="Logo cliente 3">
+            <img src="https://via.placeholder.com/100x100.png?text=Logo+4" alt="Logo cliente 4">
+        </div>
+    </div>
+</div>
 
-        <section class="card">
-            <div class="card-header">
-                <img class="img-jeff" src="./assets/img/jefferson.jpeg" alt="">
-                <h2 class="card-name">Jefferson Yepez</h2>
-            </div>
-            <div class="card-body">
-                <center>
-                    <strong>Desarrollador de Software</strong>
-                    <p>Estudiante de Ingeniería en Software en la Universidad de las Fuerzas Armadas - ESPE</p>
-                </center>
-
-                <div class="width-100 df jc ai-center">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-github fa-2x"></i>
-                </div>
-
-                <a href="./assets/pdf/cv_garcia_mateo (1).pdf" download="cv_mateo.pdf" class="download-cv">
-                    <div class="df ai-center">
-                        <i class="fas fa-download fa-2x"></i>
-                        <p>Descarga mi CV</p>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-
-        <section class="card">
-            <div class="card-header">
-                <img class="Img-Sebrux" src="./assets/img/Sebastian.png" alt="">
-                <h2 class="card-name">Sebastián Parra</h2>
-            </div>
-            <div class="card-body">
-                <center>
-                    <strong>Desarrollador de Software</strong>
-                    <p>EStudiante de Ingenieria en Software de la Universidad de las Fuerzas Armadas - ESPE</p>
-                </center>
-
-                <div class="width-100 df jc ai-center">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-github fa-2x"></i>
-                </div>
-
-                <a href="./assets/pdf/cv_garcia_mateo (1).pdf" download="cv_mateo.pdf" class="download-cv">
-                    <div class="df ai-center">
-                        <i class="fas fa-download fa-2x"></i>
-                        <p>Descarga mi CV</p>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-
-    </section>
-    
-    <center>
-        <h2 class="name-portfolio">Portafolio-Mateo</h2>
-    </center>
-    <section class="df projects">
-
-        <section class="df">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>JoeCypher</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/joe.png" alt="" class="img-card">
-                </center>
-                <p>JoeCypher is an encryptation and decryption tool that uses cahotical models based on differential ecuations to encrypt and decrypt</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>XDRing</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/xdring.png" alt="" class="img-card">
-                </center>
-                <p>As a graduate project in high school, we built XDRing: automation and operation with Telegram, WebSockets, video streaming, face recognition, door control, and more (yes, even more).</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>TrucoBotMusic</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/discord.png" alt="" class="img-card">
-                </center>
-                <p>A super-duper-cool discord music bot, for free, because free stuff is cool, isn't it?                </p>
-            </div>
-        </section>
-    </section>
-
-
-    <center>
-        <h2 class="name-portfolio">Portafolio - Jeff the killer</h2>
-    </center>
-    <section class="df projects">
-
-        <section class="df">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>TechNova</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/technova.jpeg" alt="" class="img-card">
-                </center>
-                <p>Un espacio futurista dedicado a la tecnología de punta. TechNova se enfoca en desarrollar soluciones innovadoras utilizando inteligencia artificial, robótica y tecnología avanzada.</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>InnovaHub</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/innovahub.jpeg" alt="" class="img-card">
-                </center>
-                <p>Un centro de innovación diseñado para fomentar la colaboración creativa. InnovaHub es un espacio vibrante donde equipos multidisciplinarios trabajan en proyectos.</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>SmartCode</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/smartcode.jpeg" alt="" class="img-card">
-                </center>
-                <p>Un entorno digital especializado en programación y desarrollo de software. SmartCode proporciona herramientas avanzadas y un ecosistema moderno.</p>
-            </div>
-        </section>
-    </section>
-
-    <center>
-        <h2 class="name-portfolio">Portafolio - Sebastián</h2>
-    </center>
-    <section class="df projects">
-
-        <section class="df">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>Aplicación Web para descargar videos</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/AppDownloadVideos.jpeg" alt="" class="img-card">
-                </center>
-                <p>Aplicación web sencilla para descargar videos educativos de youtube colocando
-                    solo el link del video que el usuario quiera descargar con la resolución mas alta.</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>AnimalsWeight</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/AnimalsWeight.jpeg" alt="" class="img-card">
-                </center>
-                <p>Aplicación diseñada para calcular el peso de animales cuando se suben a una balanza.</p>
-            </div>
-        </section>
-
-
-
-
-        <section class="df ai-center jc">
-            <div class="card card-project">
-                <center>
-                    <div class="df jc ai-center">
-                        <h3>CatBot</h3>
-                        <a href="">
-                            <i class="fab fa-github fa-4x"></i>
-                        </a>
-                    </div>
-                </center>
-                <center>
-                    <img src="./assets/img/Chatbot.jpg" alt="" class="img-card">
-                </center>
-                <p>Bot de un gato en telegram que cuenta una historia y el usuario va haciendo que el gato
-                    realice las acciones para continuar la historia.
-                </p>
-            </div>
-        </section>
-    </section>
-    
 </body>
 </html>

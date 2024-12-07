@@ -5,10 +5,10 @@
 
 .introduction{
     margin-top: 2rem;
+    margin: auto;
     display: flex;
-    width: 100%;
+    width: 90%;
     text-align: center;
-    background-color: var(--body-color  );
     margin-bottom: 3rem;
 }
 
@@ -22,16 +22,17 @@ aside{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    padding-top: 2rem;
 }
 
 aside img{
     width: 100%;
-    margin-left: 3rem;
+    margin-left: 0rem;
 }
 
 
 .introduction h2{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .introduction p{
@@ -49,63 +50,50 @@ aside img{
     height: 20rem;
 }
 
-.container-products h2{
+.container-products{
+    display: flex;
     text-align: center;
+    margin-top: 2rem;
+
+}
+
+.title-services{
     margin-top: 2rem;
     font-size: 2.1rem;
 }
 
-.products{
-    display: flex;
-    text-align: center;
+.target{
+    margin: 0.5rem 0.5rem;
 }
 
-.products div{
-    margin: 2rem 2rem;
-}
-
-.products img{
+.target img{
     width: 20rem;
     height: 15rem;
     border-radius: 10px;
 }
 
-.products h4{
+.target h4{
     margin-top: 1.5rem;
 }
 
-.products p{
+.target p{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     text-align: justify;
 }
 
 /*Tragets of products*/
-.Target{
+.target{
     border: 1px solid black;
     padding: 2rem 2rem;
     border-radius: 4%;
+    width: 45%
 }
 
-.heart1{
+.heart{
     position: absolute;
-    left: 32.5rem;
-}
-
-.heart2{
-    position: absolute;
-    left: 72rem;
-}
-
-
-.heart3{
-    position: absolute;
-    right: 3.5rem;
-}
-
-i:hover{
-    transform: scale(1.2);
-    color: pink;
+    margin-left: 22rem;
+    cursor:pointer;
 }
 
 .outstanding{
@@ -115,4 +103,23 @@ i:hover{
     width: 7rem;
     border-radius: 5%;
 }
+
+.iconoCheckbox{
+    cursor: pointer;
+    position: absolute;
+    height: 35px;
+    appearance: none;
+    border: none;
+    left: 0rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+.heart:has(.iconoCheckbox:checked){
+    color: #f6b;
+}
+
+
+
 

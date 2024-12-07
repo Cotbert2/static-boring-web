@@ -287,6 +287,10 @@ i {
     display: none;
 }
 
+.dark {
+    display: none;
+}
+
 /*==================== Animations ====================*/
 @keyframes spinner {
     to {
@@ -295,7 +299,7 @@ i {
 }
 
 /*==================== Theme Switch ====================*/
-body:has(input[type="checkbox"]:checked) {
+body:has(.theme:checked) {
     --main-color       : #52A5E0;
     --title-color      : #EFF3F5;
     --text-color       : #C8CDD0;
@@ -305,3 +309,114 @@ body:has(input[type="checkbox"]:checked) {
     --body-color       : #192229;
     transition: .5s;
 }
+
+
+body:has(.theme:checked) .light {
+    display: none;
+}
+
+body:has(.theme:checked) .dark {
+    display: block;
+}
+
+/*==================== Preguntas Frecuentes aside ====================*/
+
+.container-questions{
+    position: fixed;
+    right: 0;
+    width: 5%;
+    background-color: #0df;
+    padding-top: 0.7rem ;
+    padding-left: 1rem;
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    top: 6rem;
+}
+.header-question{
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 0.5rem;
+}
+.header-question h3{
+    margin-left: 3rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+.close{
+    color: transparent;
+    position: absolute;
+}
+.questionCheckbox{
+    cursor: pointer;
+    position: absolute;
+    height: 35px;
+    width: 25px;
+    border: none;
+    appearance: none;
+    left: 2rem;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.container-questions:has(.questionCheckbox:checked){
+    animation: expandWidth 3s ease-in-out forwards;
+}
+.questions-icon:has(.questionCheckbox:checked){
+    color: transparent;
+}
+.close:has(.questionCheckbox:checked){
+    color: rgb(30, 48, 80);
+}
+.arrowDownCheckbox{
+    cursor: pointer;
+    position: absolute;
+    height: 38px;
+    width: 25px;
+    border: none;
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    top: 1.2rem;
+    right: 3rem;
+}
+.down{
+    position: relative;
+    right: 0;
+}
+@keyframes expandWidth {
+    0%{
+        width: 5%;
+    }
+    100%{
+        width: 40%;
+    }
+    
+}
+.questions{
+    overflow: hidden;
+    background-color: #0df;
+    height: 0;
+    margin-bottom: 0.8rem;
+}
+.questions:has(.arrowDownCheckbox:checked){
+    animation: expandHeight 3s ease-in-out forwards;
+}
+@keyframes expandHeight {
+    0%{
+        height: 0;
+    }
+    99%{
+        height:220px;
+    }
+    100%{
+        height: auto;
+    }
+    
+}
+summary{
+    margin: 5px 0;
+}
+
