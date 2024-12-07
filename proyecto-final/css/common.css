@@ -305,3 +305,15 @@ footer{
 hr{
     margin-top: 2rem;
 }
+
+
+
+body:has(input[type="checkbox"]:checked) {
+    --main-color: #52A5E0;
+    --title-color: #EFF3F5;
+    --text-color: #C8CDD0;
+    --light-text-color: #A0A7AC;
+    --border-color: #2A3B47;
+    --container-color: #212E36;
+    --body-color: #192229;
+}
