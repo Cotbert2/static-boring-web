@@ -28,7 +28,7 @@
             <img src="./assets/img/logo.png" alt="">
         </a>
         <nav>
-            <ul class="df ai-center">
+            <ul class="df ai-center fw">
                 <li>
                     <a href="./index.html" class="selected light">Home</a>
                     <a href="./dark-index.html" class="selected dark">Home</a>
@@ -47,11 +47,16 @@
                 </li>
 
                 <li>
+                    <a href="./portfolio.html" class="light">Portafolios</a>
+                    <a href="./dark-portfolio.html" class="dark">Portafolios</a>
+                </li>
+
+                <li>
                     <a href="./login.html" class="light">Identifícate</a>
                     <a href="./dark-login.html" class="dark">Identifícate</a>
                 </li>
                 <li class="df">
-                    <input type="checkbox" name="theme" id="theme" class="theme">
+                    <input type="checkbox" name="theme" id="theme" class="theme" checked>
                     <label for="theme">
                         <i class="fa-solid fa-moon fa-2x" id="moon"></i>
                     </label>
@@ -94,21 +99,113 @@
     </section>
 
 
-    <section class="df  team-work">
-        <div class="width-100 team-text">
+    <section class="df  team-work fw">
+        <div class="width-50 team-text">
             <center>
                 <h1>Nuestro equipo</h1>
             </center>
             <p>Conoce a nuestro equipo de trabajo, los mejores profesionales en el desarrollo de <em>software</em>.</p>
             <p>Para Nosotros crear software no significa dinero, es más una cuestión de <em>pasión</em> </p>
         </div>
-        <video src="./assets/video/3249902-uhd_3840_2160_25fps.mp4" autoplay loop></video>
+        <section class="video-container">
+            <video src="./assets/video/3249902-uhd_3840_2160_25fps.mp4" autoplay loop></video>
+        </section>
     </section>
 
     <section class="df ai-center jc margin-1rem">
         <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Cita de GitHub Readme"
             class="width-50" />
     </section>
+
+    <div class="container-questions">
+        <div class="header-question">
+            <i class="fa-solid fa-question fa-2x questions-icon">
+                <input type="checkbox" class="questionCheckbox">
+            </i>
+            <i class="fa-solid fa-x fa-2x close"></i>
+            <h3>Preguntas Frecuentes</h3>
+            <i class="fa-solid fa-arrow-down fa-2x down">
+            </i>
+        </div>
+        <div class="questions">
+            <input type="checkbox" class="arrowDownCheckbox">
+            <details>
+                <summary>1. ¿Qué incluye la compra del software?</summary>
+                <p>La compra del software incluye la licencia de uso, actualizaciones regulares (si están disponibles) y
+                    soporte técnico durante el periodo especificado en el plan adquirido. Algunos paquetes pueden
+                    incluir funcionalidades premium o módulos adicionales según el plan seleccionado.</p>
+            </details>
+            <details>
+                <summary>2. ¿Cuáles son los requisitos mínimos del sistema para instalar el software?</summary>
+                <p>Los requisitos mínimos pueden variar dependiendo del software. Asegúrate de que tu dispositivo cumpla
+                    con lo siguiente:
+                <ul>
+                    <li>
+                        Sistema operativo: (ejemplo) Windows 10, macOS 11 o posterior.
+                    </li>
+                    <li>
+                        Procesador: 2.0 GHz o superior.
+                    </li>
+                    <li>
+                        Memoria RAM: Al menos 4 GB.
+                    </li>
+                    <li>
+                        Espacio en disco: 2 GB libres.
+                    </li>
+                    <li>
+                        Conexión a internet: Requerida para la activación y actualizaciones.</p>
+                    </li>
+                </ul>
+            </details>
+            <details>
+                <summary>3. ¿Es posible probar el software antes de comprarlo?</summary>
+                <p>¡Sí! Ofrecemos una versión de prueba gratuita por 7 días. Durante este tiempo, puedes explorar todas
+                    las funciones del software antes de tomar una decisión.</p>
+            </details>
+            <details>
+                <summary>4. ¿Qué sucede si no estoy satisfecho con el software después de la compra?</summary>
+                <p>Si no estás satisfecho, ofrecemos una garantía de reembolso de 30 días desde la fecha de compra.
+                    Ponte en contacto con nuestro equipo de soporte para iniciar el proceso de reembolso.</p>
+            </details>
+            <details>
+                <summary>5. ¿El software incluye actualizaciones gratuitas?</summary>
+                <p>Dependiendo del plan que elijas, las actualizaciones menores son gratuitas. Las actualizaciones
+                    mayores (como nuevas versiones) podrían requerir un costo adicional, aunque ofrecemos descuentos
+                    especiales para clientes existentes.</p>
+            </details>
+            <details>
+                <summary>6. ¿Cómo recibo el software después de comprarlo?</summary>
+                <p>Después de realizar la compra, recibirás un correo electrónico con un enlace para descargar el
+                    software y una clave de activación para instalarlo en tu dispositivo.</p>
+            </details>
+            <details>
+                <summary>7. ¿Cuántos dispositivos puedo usar con una licencia?</summary>
+                <p>Cada licencia permite instalar el software en un dispositivo. Si necesitas usarlo en varios
+                    dispositivos, ofrecemos planes multiusuario con descuentos.</p>
+            </details>
+            <details>
+                <summary>8. ¿Qué métodos de pago aceptan?</summary>
+                <p>Aceptamos pagos a través de:
+                <ul>
+                    <li>
+                        Tarjetas de crédito/débito (Visa, Mastercard, American Express)
+                    </li>
+                    <li>
+                        PayPal
+                    </li>
+                    <li>
+                        Transferencias bancarias
+                    </li>
+                    <li>
+                        Otros métodos según tu ubicación
+                    </li>
+                </ul>
+                </p>
+            </details>
+        </div>
+
+    </div>
+
 
 
     <footer>
@@ -136,7 +233,7 @@
 
         </div>
         <hr>
-        <div >
+        <div>
             <a href="https://wa.me/593987654321" target="_blank">
                 <i class="fa-brands fa-whatsapp fa-2x"></i>
             </a>
@@ -162,6 +259,9 @@
             <p id="rights">© 2021 SDJ. Todos los derechos reservados</p>
         </div>
     </footer>
+
+
+
 
 </body>
 
