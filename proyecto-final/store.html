@@ -20,24 +20,42 @@
 </head>
 <body>
     <header class="df">
-        <img src="./assets/img/logo.png" alt="">
+        <a href="./index.html">
+            <img src="./assets/img/logo.png" alt="">
+        </a>
         <nav>
-            <ul class="df">
+            <ul class="df ai-center">
                 <li>
-                    <a href="./index.html">Home</a>
+                    <a href="./index.html" class="light">Home</a>
+                    <a href="./dark-index.html" class=" dark">Home</a>
                 </li>
                 <li>
-                    <a href="./about.html">Acerca de</a>
+                    <a href="./about.html" class="light">Acerca de</a>
+                    <a href="./dark-about.html" class="dark">Acerca de</a>
                 </li>
                 <li>
-                    <a href="./store.html">Servicios</a>
+                    <a href="./store.html" class="selected light">Servicios</a>
+                    <a href="./dark-store.html" class="selected dark">Servicios</a>
                 </li>
                 <li>
-                    <a href="./contact.html">Contacto</a>
+                    <a href="./contact.html" class="light">Contacto</a>
+                    <a href="./dark-contact.html" class="dark">Contacto</a>
                 </li>
 
                 <li>
-                    <a href="./login.html">identifícate</a>
+                    <a href="./portfolio.html" class="light">Portafolios</a>
+                    <a href="./dark-portfolio.html" class="dark">Portafolios</a>
+                </li>
+
+                <li>
+                    <a href="./login.html" class="light">identifícate</a>
+                    <a href="./dark-login.html" class="dark">identifícate</a>
+                </li>
+                <li class="df">
+                    <input type="checkbox" name="theme" id="theme" class="theme">
+                    <label for="theme">
+                        <i class="fa-solid fa-moon fa-2x" id="moon"></i>
+                    </label>
                 </li>
             </ul>
         </nav>

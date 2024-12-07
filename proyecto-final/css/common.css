@@ -50,6 +50,7 @@ body {
 
 /*==================== Utility Classes ====================*/
 .df { display: flex; }
+.dn { display: none; }
 .jc { justify-content: center; }
 .jb { justify-content: space-between; }
 .ja { justify-content: space-around; }

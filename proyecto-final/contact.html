@@ -31,31 +31,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" href="./assets/img/sdj-icon.jpg" type="img/png">
+    <link rel="icon" href="./assets/img/sdj-icon.jpg" type="img/png">
     <title>SDJ | Contact</title>
 </head>
 
 <body>
     <div class="full-container">
         <header class="df">
-            <img src="./assets/img/logo.png" alt="">
+            <a href="./index.html">
+                <img src="./assets/img/logo.png" alt="">
+            </a>
             <nav>
-                <ul class="df">
+                <ul class="df ai-center">
                     <li>
-                        <a href="./index.html">Home</a>
+                        <a href="./index.html" class="light">Home</a>
+                        <a href="./dark-index.html" class="dark">Home</a>
                     </li>
                     <li>
-                        <a href="./about.html">Acerca de</a>
+                        <a href="./about.html" class="light">Acerca de</a>
+                        <a href="./dark-about.html" class="dark">Acerca de</a>
                     </li>
                     <li>
-                        <a href="./store.html">Servicios</a>
+                        <a href="./store.html" class="light">Servicios</a>
+                        <a href="./dark-store.html" class="dark">Servicios</a>
                     </li>
                     <li>
-                        <a href="./contact.html">Contacto</a>
+                        <a href="./contact.html" class="selected light">Contacto</a>
+                        <a href="./dark-contact.html" class="selected dark">Contacto</a>
                     </li>
-    
+
                     <li>
-                        <a href="./login.html">identifícate</a>
+                        <a href="./portfolio.html" class=" light">Portafolios</a>
+                        <a href="./dark-portfolio.html" class="dark">Portafolios</a>
+                    </li>
+
+                    <li>
+                        <a href="./login.html" class="light">identifícate</a>
+                        <a href="./dark-login.html" class="dark">identifícate</a>
+                    </li>
+                    <li class="df">
+                        <input type="checkbox" name="theme" id="theme" class="theme">
+                        <label for="theme">
+                            <i class="fa-solid fa-moon fa-2x" id="moon"></i>
+                        </label>
                     </li>
                 </ul>
             </nav>
@@ -82,7 +100,7 @@
                 <a href="https://x.com/?lang=es">Ingresar a la red social del equipo</a>
             </section>
         </section>
-        
+
 
         <section class="Contact-Order">
             <section>
@@ -93,14 +111,17 @@
             <article>
                 <h1>Contáctenos</h1>
                 <p><i>SDJ se enorgullece de ofrecer productos software
-                    de calidad! ¡Explore varios de nuestros proyectos
-                    realizados!</i>
+                        de calidad! ¡Explore varios de nuestros proyectos
+                        realizados!</i>
                 </p>
             </article>
         </section>
         <section class="Section-Map">
             <h2>Encuentranos!!!</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.758093603417!2d-78.44509422424889!3d-0.3148156353375434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd12538eb13b%3A0x907c61f1abbe45ab!2sUniversidad%20de%20las%20Fuerzas%20Armadas%20ESPE!5e0!3m2!1ses!2sec!4v1733153348226!5m2!1ses!2sec" width="80%" height="450" style="border:0; margin-bottom: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.758093603417!2d-78.44509422424889!3d-0.3148156353375434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd12538eb13b%3A0x907c61f1abbe45ab!2sUniversidad%20de%20las%20Fuerzas%20Armadas%20ESPE!5e0!3m2!1ses!2sec!4v1733153348226!5m2!1ses!2sec"
+                width="80%" height="450" style="border:0; margin-bottom: 30px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         <div class="container-questions">
@@ -117,79 +138,89 @@
                 <input type="checkbox" class="arrowDownCheckbox">
                 <details>
                     <summary>1. ¿Qué incluye la compra del software?</summary>
-                    <p>La compra del software incluye la licencia de uso, actualizaciones regulares (si están disponibles) y soporte técnico durante el periodo especificado en el plan adquirido. Algunos paquetes pueden incluir funcionalidades premium o módulos adicionales según el plan seleccionado.</p>
+                    <p>La compra del software incluye la licencia de uso, actualizaciones regulares (si están
+                        disponibles) y soporte técnico durante el periodo especificado en el plan adquirido. Algunos
+                        paquetes pueden incluir funcionalidades premium o módulos adicionales según el plan
+                        seleccionado.</p>
                 </details>
                 <details>
                     <summary>2. ¿Cuáles son los requisitos mínimos del sistema para instalar el software?</summary>
-                    <p>Los requisitos mínimos pueden variar dependiendo del software. Asegúrate de que tu dispositivo cumpla con lo siguiente:
-                        <ul>
-                            <li>
-                                Sistema operativo: (ejemplo) Windows 10, macOS 11 o posterior.
-                            </li>
-                            <li>
-                                Procesador: 2.0 GHz o superior.
-                            </li>
-                            <li>
-                                Memoria RAM: Al menos 4 GB.
-                            </li>
-                            <li>
-                                Espacio en disco: 2 GB libres.
-                            </li>
-                            <li>
-                                Conexión a internet: Requerida para la activación y actualizaciones.</p>
-                            </li>
-                        </ul>
+                    <p>Los requisitos mínimos pueden variar dependiendo del software. Asegúrate de que tu dispositivo
+                        cumpla con lo siguiente:
+                    <ul>
+                        <li>
+                            Sistema operativo: (ejemplo) Windows 10, macOS 11 o posterior.
+                        </li>
+                        <li>
+                            Procesador: 2.0 GHz o superior.
+                        </li>
+                        <li>
+                            Memoria RAM: Al menos 4 GB.
+                        </li>
+                        <li>
+                            Espacio en disco: 2 GB libres.
+                        </li>
+                        <li>
+                            Conexión a internet: Requerida para la activación y actualizaciones.</p>
+                        </li>
+                    </ul>
                 </details>
                 <details>
                     <summary>3. ¿Es posible probar el software antes de comprarlo?</summary>
-                    <p>¡Sí! Ofrecemos una versión de prueba gratuita por 7 días. Durante este tiempo, puedes explorar todas las funciones del software antes de tomar una decisión.</p>
+                    <p>¡Sí! Ofrecemos una versión de prueba gratuita por 7 días. Durante este tiempo, puedes explorar
+                        todas las funciones del software antes de tomar una decisión.</p>
                 </details>
                 <details>
                     <summary>4. ¿Qué sucede si no estoy satisfecho con el software después de la compra?</summary>
-                    <p>Si no estás satisfecho, ofrecemos una garantía de reembolso de 30 días desde la fecha de compra. Ponte en contacto con nuestro equipo de soporte para iniciar el proceso de reembolso.</p>
+                    <p>Si no estás satisfecho, ofrecemos una garantía de reembolso de 30 días desde la fecha de compra.
+                        Ponte en contacto con nuestro equipo de soporte para iniciar el proceso de reembolso.</p>
                 </details>
                 <details>
                     <summary>5. ¿El software incluye actualizaciones gratuitas?</summary>
-                    <p>Dependiendo del plan que elijas, las actualizaciones menores son gratuitas. Las actualizaciones mayores (como nuevas versiones) podrían requerir un costo adicional, aunque ofrecemos descuentos especiales para clientes existentes.</p>
+                    <p>Dependiendo del plan que elijas, las actualizaciones menores son gratuitas. Las actualizaciones
+                        mayores (como nuevas versiones) podrían requerir un costo adicional, aunque ofrecemos descuentos
+                        especiales para clientes existentes.</p>
                 </details>
                 <details>
                     <summary>6. ¿Cómo recibo el software después de comprarlo?</summary>
-                    <p>Después de realizar la compra, recibirás un correo electrónico con un enlace para descargar el software y una clave de activación para instalarlo en tu dispositivo.</p>
+                    <p>Después de realizar la compra, recibirás un correo electrónico con un enlace para descargar el
+                        software y una clave de activación para instalarlo en tu dispositivo.</p>
                 </details>
                 <details>
                     <summary>7. ¿Cuántos dispositivos puedo usar con una licencia?</summary>
-                    <p>Cada licencia permite instalar el software en un dispositivo. Si necesitas usarlo en varios dispositivos, ofrecemos planes multiusuario con descuentos.</p>
+                    <p>Cada licencia permite instalar el software en un dispositivo. Si necesitas usarlo en varios
+                        dispositivos, ofrecemos planes multiusuario con descuentos.</p>
                 </details>
                 <details>
                     <summary>8. ¿Qué métodos de pago aceptan?</summary>
                     <p>Aceptamos pagos a través de:
-                        <ul>
-                            <li>
-                                Tarjetas de crédito/débito (Visa, Mastercard, American Express)
-                            </li>
-                            <li>
-                                PayPal
-                            </li>
-                            <li>
-                                Transferencias bancarias
-                            </li>
-                            <li>
-                                Otros métodos según tu ubicación
-                            </li>
-                        </ul>
+                    <ul>
+                        <li>
+                            Tarjetas de crédito/débito (Visa, Mastercard, American Express)
+                        </li>
+                        <li>
+                            PayPal
+                        </li>
+                        <li>
+                            Transferencias bancarias
+                        </li>
+                        <li>
+                            Otros métodos según tu ubicación
+                        </li>
+                    </ul>
                     </p>
                 </details>
             </div>
-            
+
         </div>
-        
+
         <footer>
             <div class="df witdh-100 ja">
                 <section>
                     <h1>SDJ</h1>
                     <p>Software Development startup</p>
                 </section>
-    
+
                 <section>
                     <h1>Desarrollo</h1>
                     <p>Aplicaciones Distribuidas</p>
@@ -198,14 +229,14 @@
                     <p>Escritorio</p>
                     <p>Consultoría</p>
                 </section>
-    
+
                 <section>
                     <h1>Built by:</h1>
                     <p>Deivid Yepez</p>
                     <p>Sebrux</p>
                     <p>Cotbert</p>
                 </section>
-    
+
             </div>
             <hr>
             <div class="social-media">
