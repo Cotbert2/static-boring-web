@@ -4,6 +4,11 @@
     font-size: .7rem;
 }
 
+footer{
+    background-color: transparent;
+    text-align: center;
+}
+
 main{
     display: flex;
     padding: 1rem;
@@ -13,7 +18,14 @@ main{
     flex-wrap: wrap;
 }
 
+h1 {
+    color: var(--title-color);
+}
 
+.p-title-color{
+    color: var(--title-color);
+    font-size: 1.2rem;
+}
 .separator{
     display: flex;
     flex-direction: column;
