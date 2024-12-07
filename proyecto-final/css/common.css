@@ -2,9 +2,9 @@
 /*Sebastian*/
 /*Deivid*/
 
+/*==================== Variables ====================*/
 :root {
-
-    /* Light  Mode */
+    /* Light Mode */
     --main-color       : #1083D6;
     --title-color      : #2A3B47;
     --text-color       : #697477;
@@ -12,14 +12,6 @@
     --border-color     : #EFF3F5;
     --container-color  : #FFFFFF;
     --body-color       : #FBFBFE;
-
-
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 body.dark-theme {
@@ -32,6 +24,17 @@ body.dark-theme {
     --body-color       : #192229;
 }
 
+/*==================== Global Styles ====================*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -40,91 +43,53 @@ body.dark-theme {
     background: var(--body-color-light);
 }
 
-
 ::-webkit-scrollbar-thumb {
     background: var(--main-color);
     border-radius: 10px;
 }
 
+/*==================== Utility Classes ====================*/
+.df { display: flex; }
+.jc { justify-content: center; }
+.jb { justify-content: space-between; }
+.ja { justify-content: space-around; }
+.je { justify-content: flex-end; }
+.ai-center { align-items: center; }
+.ai-start { align-items: flex-start; }
+.ai-end { align-items: flex-end; }
+.text-align-center { text-align: center; }
+.width-100 { width: 100%; }
+.width-50 { width: 50%; }
+.margin-1rem { margin: 1rem; }
+.fw{ flex-wrap: wrap;}
+.selected{ color:rgb(55, 213, 55);font-weight: 500;}
 
-
-/*Utilities*/
-
-.df{
-    display: flex;
-}
-
-.jc{
-    justify-content: center;
-}
-
-.jb{
-    justify-content: space-between;
-}
-
-.ja{
-    justify-content: space-around;
-}
-
-.je{
-    justify-content: flex-end;
-}
-
-.ai-center{
-    align-items: center;
-}
-
-.ai-start{
-    align-items: flex-start;
-}
-
-.ai-end{
-    align-items: flex-end;
-}
-
-.text-align-center{
-    text-align: center;
-}
-
-.witdh-100{
-    width: 100%;
-}
-
-
-
-
-.full-container{
+/*==================== Layout ====================*/
+.full-container {
     width: 100%;
     height: 100vh;
     background-color: var(--body-color);
 }
 
-.bg-skyblue{
-    background-color: var(--main-color);
-}
+/*==================== Background Colors ====================*/
+.bg-skyblue { background-color: var(--main-color); }
+.bg-blue { background-color: rgb(50, 94, 148); }
+.bg-black { background-color: #000; }
 
-.bg-blue{
-    background-color: rgb(50, 94, 148);
-}
-
-.bg-black{
-    background-color: #000;
-}
-
-.fw-100{
+/*==================== Text Styles ====================*/
+.fw-100 {
     font-weight: 100;
     margin-top: 1rem;
 }
 
-
-a{
+a {
     color: var(--main-color);
     font-size: 1rem;
     margin: 1rem;
     text-decoration: none;
 }
 
-input{
+input {
     width: 100%;
     border: none;
     border-bottom: 1px solid var(--border-color);
@@ -133,12 +98,12 @@ input{
     background-color: transparent;
 }
 
-input:focus{
+input:focus {
     outline: none;
     border-bottom: 1px solid var(--main-color);
 }
 
-button{
+button {
     padding: 1rem;
     margin: 1rem;
     border: none;
@@ -148,55 +113,30 @@ button{
     transition: .3s;
 }
 
-button:hover{
+button:hover {
     background-color: #0E70A4;
     color: var(--container-color);
 }
 
-header{
-    padding: .3rem;
-    background-color: var(--main-color);
-}
-
-header img{
-    width: 10rem;
-    border-radius: 1rem;
-}
-
-.login-option{
-    display: flex;
-    align-items: center;
-    padding: .3rem;
-    border-radius: .2rem;
-    margin: 1rem auto;
-}
-
-.login-option img{
-    width: 2rem;
-    background-color: white;
-    padding: .3rem;
-}
-
-.login-option p{
-    color: white;
-    font-size: 1rem;
-    margin-left: 1rem;
-}
-
-
-header{
+/*==================== Header ====================*/
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    background-color: var(--main-color);
 }
 
-ul{
+header img {
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+header ul {
     list-style: none;
 }
 
-
-header ul li a{
+header ul li a {
     color: var(--body-color);
     font-size: 1rem;
     margin: 1rem;
@@ -204,7 +144,35 @@ header ul li a{
     font-weight: 100;
 }
 
-.card{
+header ul li a:hover {
+    text-decoration: underline;
+    color: rgb(55, 213, 55);
+    transition: .3s;
+}
+
+/*==================== Login Option ====================*/
+.login-option {
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    border-radius: .2rem;
+    margin: 1rem auto;
+}
+
+.login-option img {
+    width: 2rem;
+    background-color: white;
+    padding: .3rem;
+}
+
+.login-option p {
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+/*==================== Card ====================*/
+.card {
     margin: 1rem;
     width: 25%;
     height: 40rem;
@@ -217,35 +185,30 @@ header ul li a{
     line-height: 1.5;
 }
 
-.card-header{
+.card-header {
     height: 70%;
-
     overflow: hidden;
 }
 
-.card-header img{
+.card-header img {
     width: 100%;
-    /* view top of the image*/
-
 }
 
 .card-header h2 {
-
     font-size: 1.5rem;
     position: relative;
     z-index: 1;
     bottom: 0;
 }
 
-
-.card-content{
+.card-content {
     height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.download-cv{
+.download-cv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,36 +219,34 @@ header ul li a{
     margin: 1rem;
     cursor: pointer;
     transition: .3s;
-    
 }
 
-.card-name{
+.card-name {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-i{
-    margin: .2rem 1rem;
-}
-
-.img-card{
+/*==================== Images ====================*/
+.img-card {
     width: 100%;
     height: 8rem;
     object-fit: cover;
 }
 
-.card-project{
+.card-project {
     height: 20rem;
     width: 30rem;
 }
 
-.projects{
-    background-color: #A0A7AC;
+/*==================== Projects ====================*/
+.projects {
+    background-color: var(--light-text-color);
     padding: 2rem;
 }
 
-.name-portfolio{
+/*==================== Portfolio ====================*/
+.name-portfolio {
     background-color: var(--main-color);
     width: 30%;
     padding: 2rem;
@@ -295,25 +256,52 @@ i{
     border-radius: 1rem;
 }
 
+/*==================== Footer ====================*/
 /*Modificacion por Sebas*/
-footer{
+footer {
     background-color: var(--main-color);
     color: var(--body-color);
     padding: 1rem;
     text-align: center;
 }
-hr{
+
+hr {
     margin-top: 2rem;
 }
 
+/*==================== Icons ====================*/
+i {
+    margin: .2rem 1rem;
+}
 
+#moon {
+    color: var(--body-color);
+}
 
+#moon:hover {
+    cursor: pointer;
+    animation: spinner .5s linear normal;
+}
+
+#theme {
+    display: none;
+}
+
+/*==================== Animations ====================*/
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*==================== Theme Switch ====================*/
 body:has(input[type="checkbox"]:checked) {
-    --main-color: #52A5E0;
-    --title-color: #EFF3F5;
-    --text-color: #C8CDD0;
-    --light-text-color: #A0A7AC;
-    --border-color: #2A3B47;
-    --container-color: #212E36;
-    --body-color: #192229;
+    --main-color       : #52A5E0;
+    --title-color      : #EFF3F5;
+    --text-color       : #C8CDD0;
+    --light-text-color : #A0A7AC;
+    --border-color     : #2A3B47;
+    --container-color  : #212E36;
+    --body-color       : #192229;
+    transition: .5s;
 }
