@@ -60,6 +60,7 @@ body {
 .ai-end { align-items: flex-end; }
 .text-align-center { text-align: center; }
 .width-100 { width: 100%; }
+.width-100vh { width: 100vh; }
 .width-50 { width: 50%; }
 .margin-1rem { margin: 1rem; }
 .fw{ flex-wrap: wrap;}
@@ -173,59 +174,133 @@ header ul li a:hover {
 }
 
 /*==================== Card ====================*/
+
+
 .card {
     margin: 1rem;
-    width: 25%;
-    height: 40rem;
-    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     background-color: var(--title-color);
-    border-radius: .5rem;
+    border-radius: 1rem; /* Curvar la tarjeta completa */
     border: 1px solid black;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.816);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     color: white;
-    line-height: 1.5;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
 }
 
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
 .card-header {
-    height: 70%;
+    position: relative;
+    height: 60%;
     overflow: hidden;
+    border-top-left-radius: 1rem; 
+    border-top-right-radius: 1rem;
 }
 
 .card-header img {
     width: 100%;
+    height: 17rem;
+    object-fit: cover; 
+    border-top-left-radius: 1rem; 
+    border-top-right-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-header img:hover {
+    transform: scale(1.05); 
 }
 
 .card-header h2 {
-    font-size: 1.5rem;
-    position: relative;
-    z-index: 1;
+    position: absolute;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom-left-radius: 1rem; 
+    border-bottom-right-radius: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-.card-content {
-    height: 30%;
+
+.card-body {
+    padding: 1rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
+.card-body strong {
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+
+.card-body p {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--body-color);
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.card-body div a i {
+    color: var(--body-color);
+}
+
+/* Download CV button */
 .download-cv {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
     color: var(--container-color);
-    padding: .5rem;
-    border-radius: .5rem;
-    margin: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
     cursor: pointer;
-    transition: .3s;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 
-.card-name {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.download-cv:hover {
+
+    transform: translateY(-5px);
+}
+.card-project div h3, .card-project a i, .card-project p {
+    color: var(--body-color);
+}
+.download-cv div i {
+    margin-right: 0.5rem;
+    color: var(--body-color);
+}
+
+.download-cv p {
+    margin: 0;
+}
+
+.card i{
+    color: white;
+    margin: 0;
 }
 
 /*==================== Images ====================*/
@@ -243,7 +318,11 @@ header ul li a:hover {
 /*==================== Projects ====================*/
 .projects {
     background-color: var(--light-text-color);
-    padding: 2rem;
+    padding: 1rem;
+}
+.card-container{
+    width: 100%;
+    gap: 1rem;
 }
 
 /*==================== Portfolio ====================*/
@@ -420,4 +499,10 @@ body:has(.theme:checked) .dark {
 summary{
     margin: 5px 0;
 }
+
+
+
+
+
+
 

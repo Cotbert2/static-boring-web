@@ -15,7 +15,6 @@
 article{
     width: 60%;
     box-sizing: border-box;
-    padding: 0 8rem;
 }
 
 aside{
@@ -54,7 +53,6 @@ aside img{
     display: flex;
     text-align: center;
     margin-top: 2rem;
-
 }
 
 .title-services{
@@ -64,11 +62,13 @@ aside img{
 
 .target{
     margin: 0.5rem 0.5rem;
+    height: 30rem;
+    width: 30rem;
 }
 
 .target img{
     width: 20rem;
-    height: 15rem;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -87,12 +87,13 @@ aside img{
     border: 1px solid black;
     padding: 2rem 2rem;
     border-radius: 4%;
-    width: 45%
+    width: 20rem
 }
 
 .heart{
     position: absolute;
-    margin-left: 22rem;
+    margin-top: 3rem;
+    top: inherit;
     cursor:pointer;
 }
 
@@ -120,6 +121,11 @@ aside img{
     color: #f6b;
 }
 
-
+ p {
+    color: var(--title-color);
+}
+h2, h4{
+    color: var(--main-color);
+}
 
 
