@@ -116,7 +116,7 @@ button {
 }
 
 button:hover {
-    background-color: #0E70A4;
+    background: linear-gradient(0deg, rgba(100,190,255,1) 0%, rgba(16,131,214,1) 100%);
     color: var(--container-color);
 }
 
@@ -263,6 +263,15 @@ header ul li a:hover {
     align-items: center;
     margin-top: 1rem;
 }
+
+.social-media{
+    margin: 1rem 0;
+}
+
+.social-media p{
+    margin-top: 1rem;
+}
+
 .card-body div a i {
     color: var(--body-color);
 }
@@ -343,6 +352,19 @@ footer {
     color: var(--body-color);
     padding: 1rem;
     text-align: center;
+}
+
+footer h1{
+    color: var(--body-color);
+}
+
+footer i{
+    color: var(--body-color);
+}
+
+footer p{
+    color: var(--body-color);
+    margin-top: 1rem;
 }
 
 hr {
@@ -460,7 +482,7 @@ body:has(.theme:checked) .dark {
     padding: 0;
     z-index: 2;
     top: 1.2rem;
-    right: 3rem;
+    right: 7.6rem;
 }
 .down{
     position: relative;
@@ -499,10 +521,19 @@ body:has(.theme:checked) .dark {
 summary{
     margin: 5px 0;
 }
+details{
+    color: #2A3B47;
+}
 
+details p{
+    line-height: 1.5;
+    color: #2A3B47;
+}
 
-
-
-
-
-
+.questions ol{
+    line-height: 1.5;
+    list-style: initial;
+    list-style: decimal; 
+    margin-left: 20px; 
+    padding-left: 20px;
+}

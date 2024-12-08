@@ -56,14 +56,9 @@ body{
 
 /*Message of contact*/
 
-
-.Contact-Order section{
+.Contact-Order{
     width: 50%;
-}
-
-.Contact-Order section button{
-    width: 10rem;
-    font-size: 1rem;
+    margin: auto;
 }
 
 .Contact-Order article{
@@ -77,13 +72,17 @@ body{
 
 .Contact-Order article p{
     margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 .Contact-Order textarea{
+    margin-top: 1%;
     border-radius: 18px;
-    padding: 10px 20px 5px 20px;
-    width: 21rem;
+    padding: 20px 10px 5px 20px;
+    width: 100%;
+    max-width: 100%;
     border: 1px solid var(--border-color);
+    background-color: var(--body-color);
 }
 
 .Contact-Order textarea:focus{
@@ -91,8 +90,37 @@ body{
     border: 1px solid var(--main-color);
 }
 
-footer i{
-    color: aliceblue;
+.form-contact{
+    text-align: center;
+}
+
+.meet{
+    display: inline; 
+    margin-left: 3%;
+    color: var(--text-color);
+}
+
+input{
+    margin: 1%;
+}
+
+input[type="date"]{
+    color: var(--text-color);
+}
+
+select{
+    background-color: var(--body-color);
+    margin-top: 2%;
+    color: var(--text-color);
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-left: 2%;
+}
+
+select:focus{
+    outline: none;
+    border: 1px solid var(--main-color);
 }
 
 /*Section map*/
@@ -106,7 +134,7 @@ footer i{
 }
 
 
-p {
+.Section-Map p {
     color: var(--title-color);
 }
 
@@ -119,4 +147,57 @@ h1, h2{
 
 body:has(.theme:checked) section i{
     color: white;
+}
+
+
+button{
+    width: 50%;
+}
+
+.container-table{
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.container-table table{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.container-table table th{
+    color: var(--title-color);
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.container-table table td{
+    color: var(--text-color);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--title-color);
+    }
 }
