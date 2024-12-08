@@ -71,6 +71,7 @@ body{
 }
 
 .Contact-Order article p{
+    color: var(--text-color);
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
@@ -83,6 +84,11 @@ body{
     max-width: 100%;
     border: 1px solid var(--border-color);
     background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+::placeholder{
+    color: var(--text-color);
 }
 
 .Contact-Order textarea:focus{
@@ -102,6 +108,7 @@ body{
 
 input{
     margin: 1%;
+    color: var(--text-color);
 }
 
 input[type="date"]{

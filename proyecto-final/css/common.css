@@ -28,7 +28,9 @@ body.dark-theme {
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -98,6 +100,7 @@ input {
     padding: 1rem;
     margin: 1rem;
     background-color: transparent;
+    color: var(--text-color);
 }
 
 input:focus {
@@ -144,6 +147,10 @@ header ul li a {
     margin: 1rem;
     text-decoration: none;
     font-weight: 100;
+}
+
+header nav i{
+    color: var(--body-color);
 }
 
 header ul li a:hover {
@@ -292,7 +299,6 @@ header ul li a:hover {
 }
 
 .download-cv:hover {
-
     transform: translateY(-5px);
 }
 .card-project div h3, .card-project a i, .card-project p {
@@ -418,7 +424,7 @@ body:has(.theme:checked) .light {
 }
 
 body:has(.theme:checked) .dark {
-    display: block;
+    display: inline-block;
 }
 
 /*==================== Preguntas Frecuentes aside ====================*/
