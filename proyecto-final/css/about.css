@@ -1,11 +1,84 @@
-.cards{
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.about-content {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
 
-.img-jeff{
-    height: 100%;
+.about-text {
+    flex: 1;
+    min-width: 300px;
 }
 
-.Img-Sebrux{
-    height: 100%;
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--title-color);
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.about-images {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-images img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.clients {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.clients h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.clients p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client-logos img {
+    height: 2rem;
+    transition: all 0.3s ease;
+}
+
+.client-logos img:hover {
+    filter: none;
+    transform: scale(1.1);
 }
