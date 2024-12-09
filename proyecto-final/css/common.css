@@ -432,11 +432,14 @@ body:has(.theme:checked) .dark {
 .container-questions{
     position: fixed;
     right: 0;
+    overflow: hidden;
+    white-space: nowrap;
     width: 5%;
+    height: 10.5%;
     background-color: #0df;
     padding-top: 0.7rem ;
     padding-left: 1rem;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
     box-sizing: border-box;
     top: 6rem;
 }
@@ -452,78 +455,90 @@ body:has(.theme:checked) .dark {
     font-size: 2rem;
     margin-bottom: 0.6rem;
 }
-.close{
-    color: transparent;
-    position: absolute;
-}
-.questionCheckbox{
+
+.icon-label {
     cursor: pointer;
-    position: absolute;
-    height: 35px;
-    width: 25px;
-    border: none;
-    appearance: none;
-    left: 2rem;
-    margin: 0;
-    padding: 0;
-    z-index: 2;
+    display: flex;
+    align-items: center;
 }
-.container-questions:has(.questionCheckbox:checked){
-    animation: expandWidth 3s ease-in-out forwards;
+
+.questionCheckbox {
+    display: none; /* Ocultar el checkbox */
 }
-.questions-icon:has(.questionCheckbox:checked){
-    color: transparent;
-}
-.close:has(.questionCheckbox:checked){
-    color: rgb(30, 48, 80);
-}
-.arrowDownCheckbox{
-    cursor: pointer;
-    position: absolute;
-    height: 38px;
-    width: 25px;
-    border: none;
-    appearance: none;
-    margin: 0;
-    padding: 0;
-    z-index: 2;
-    top: 1.2rem;
-    right: 7.6rem;
-}
-.down{
-    position: relative;
-    right: 0;
-}
-@keyframes expandWidth {
-    0%{
-        width: 5%;
-    }
-    100%{
-        width: 40%;
-    }
-    
-}
-.questions{
+
+.questions {
+    height: auto;
     overflow: hidden;
     background-color: #0df;
-    height: 0;
-    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+    margin-left: 2rem;
 }
-.questions:has(.arrowDownCheckbox:checked){
-    animation: expandHeight 3s ease-in-out forwards;
+
+.container-questions:has(.questionCheckbox:checked){
+    animation: expandWidth 2s linear forwards;
 }
-@keyframes expandHeight {
-    0%{
-        height: 0;
+
+@keyframes expandWidth {
+    0% {
+        width: 5%;
+        height: 10.5%;
     }
-    99%{
-        height:220px;
+    25% {
+        width: 25%;
+        height: 10.5%;
     }
-    100%{
+    50% {
+        width: 40%;
+        height: 10.5%;
+    }
+    75% {
+        width: 40%;
+        height: 250px;
+    }
+    99% {
+        width: 40%;
+        height: 310px;
+    }100%{
+        width: 40%;
         height: auto;
     }
-    
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container-questions {
+        width: 10%; /* Ancho inicial más amplio para móviles */
+        top: 4rem; /* Ajustar posición superior */
+    }
+
+    .questionCheckbox:checked ~ .container-questions {
+        animation: expandWidthMobile 0.5s forwards; /* Animación específica para móviles */
+    }
+
+    .header-question h3 {
+        font-size: 1rem; /* Reducir tamaño del texto */
+    }
+
+    @keyframes expandWidthMobile {
+        0% {
+            width: 10%;
+        }
+        100% {
+            width: 80%; /* Más ancho en pantallas pequeñas */
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header-question h3 {
+        font-size: 0.9rem; /* Reducir aún más el texto */
+    }
+
+    .questions {
+        max-height: 400px; /* Ajustar la altura */
+    }
+}
+
 summary{
     margin: 5px 0;
 }
