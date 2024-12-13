@@ -511,6 +511,36 @@ details{
     color: #2A3B47;
 }
 
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container-questions {
+        width: 10%; /* Ancho inicial más amplio para móviles */
+        top: 4rem; /* Ajustar posición superior */
+    }
+    .questionCheckbox:checked ~ .container-questions {
+        animation: expandWidthMobile 0.5s forwards; /* Animación específica para móviles */
+    }
+    .header-question h3 {
+        font-size: 1rem; /* Reducir tamaño del texto */
+    }
+    @keyframes expandWidthMobile {
+        0% {
+            width: 10%;
+        }
+        100% {
+            width: 80%; /* Más ancho en pantallas pequeñas */
+        }
+    }
+}
+@media (max-width: 480px) {
+    .header-question h3 {
+        font-size: 0.9rem; /* Reducir aún más el texto */
+    }
+    .questions {
+        max-height: 400px; /* Ajustar la altura */
+    }
+}
+
 details p{
     line-height: 1.5;
     color: #2A3B47;

@@ -119,7 +119,7 @@ aside img{
 
 
 .heart:has(.iconoCheckbox:checked){
-    color: #f6b;
+    color: rgb(58, 12, 119);
 }
 
  p {

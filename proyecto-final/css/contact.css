@@ -180,6 +180,26 @@ button{
     text-transform: uppercase;
 }
 
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    thead tr {
+        display: none;
+    }
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--title-color);
+    }
+}
+
 .container-table table td{
     color: var(--text-color);
     padding: 1rem;
