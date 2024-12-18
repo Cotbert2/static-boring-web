@@ -53,15 +53,15 @@ let student10 = {
 let students = [student1, student2, student3, student4, student5, student6, student7, student8, student9, student10];
 
 
-const addNewGrde = (student, newGrade) => {
-    student.grades.push(newGrade);
-}
+//without funcitons
 
 //1.- add new grades to all students
-
 students.map((student) => {
-    addNewGrde(student, 20);
+    student.grades[student.grades.length] = 20;
 });
+
+
+
 
 // console.log('Students with new grades', students);
 
@@ -69,7 +69,7 @@ students.map((student) => {
 
 
 
-students.map((student, index) => {
+students.map((student) => {
     
     let average ;
     if (student.grades.length === 0) average = 0;
@@ -91,59 +91,40 @@ students.map((student, index) => {
 //3.- statistics
 
 //3.1.- average grade
-const getAverageGrade = (student) => {
-    if (student.grades.length === 0) {
-        return 0;
-    }
-    return student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
-}
 
 students.map((student) => {
-    student.average = getAverageGrade(student);
+
+    if (student.grades.length === 0) {
+        student.average = 0;
+    }else {
+        student.average =student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
+    }
 });
 
-const getMax= (set) => {
-    let max = 0;
-    set.map((item) => {
-        if (item > max) {
-            max = item;
-        }
-    });
-    return max;
-}
 
-const getMin = (set) => {
-    let min = 20;
-    set.map((item) => {
-        if (item < min) {
-            min = item;
-        }
-    });
-    return min;
-}
 
 
 //3.2.- highest grade per estudent
 
 students.map((student) => {
-    student.highestGrade = getMax(student.grades);
+    student.highestGrade = student.grades.reduce((acc, grade) => acc > grade ? acc : grade);
 });
 
 //3.2.- lowest grade per estudent
 
 students.map((student) => {
-    student.lowestGrade = getMin(student.grades);
+    student.lowestGrade = student.grades.reduce((acc, grade) => acc < grade ? acc : grade);
 });
 
 
 //3.3 highes avage grade
 
-let highestAverageGrade = getMax(students.map((student) => student.average));
+let highestAverageGrade = students.reduce((acc, student) => acc.average > student.average ? acc : student).average;
 
 
 //3.4.- lowest average grade
 
-let lowestAverageGrade = getMin(students.map((student) => student.average));
+let lowestAverageGrade = students.reduce((acc, student) => acc.average < student.average ? acc : student).average;
 
 
 console.log('******Sistema de notas******');
