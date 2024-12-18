@@ -58,39 +58,40 @@ const addNewGrde = (student, newGrade) => {
     student.grades.push(newGrade);
 }
 
-//add new grades to all students
+//1.- add new grades to all students
 
 students.forEach((student) => {
     addNewGrde(student, 20);
 });
 
-console.log('Students with new grades', students);
+// console.log('Students with new grades', students);
 
 //2.- student clasification
 
-let excelentGradesStudents = [];
-let goodGradesStudents = [];
-let aprovedGradesStudents = [];
-let failedGradesStudents = [];
 
-students.forEach((student) => {
+
+students.forEach((student, index) => {
     let average = student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
     if (average >= 16) {
-        excelentGradesStudents.push(student);
+        student.classification = 'Excelent';
     } else if (average >= 12) {
-        goodGradesStudents.push(student);
+        student.classification = 'Good';
     } else if (average >= 8) {
-        aprovedGradesStudents.push(student);
+        student.classification = 'Aproved';
     } else {
-        failedGradesStudents.push(student);
+        student.classification = 'Failed';
     }
 });
 
+console.log('students', students);
 
-console.log('Excelent grades students', excelentGradesStudents);
-console.log('Good grades students', goodGradesStudents);
-console.log('Aproved grades students', aprovedGradesStudents);
-console.log('Failed grades students', failedGradesStudents);
+
+
+
+// console.log('Excelent grades students', excelentGradesStudents);
+// console.log('Good grades students', goodGradesStudents);
+// console.log('Aproved grades students', aprovedGradesStudents);
+// console.log('Failed grades students', failedGradesStudents);
 
 //3.- statistics
 
@@ -99,34 +100,44 @@ const getAverageGrade = (student) => {
     return student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
 }
 
-students.map((student) => {
+students.forEach((student) => {
     student.average = getAverageGrade(student);
-    console.log(`Student ${student.name} average grade is ${student.average}`);
 });
+
 
 //3.2.- highest grade per estudent
 
 students.map((student) => {
     student.highestGrade = Math.max(...student.grades);
-    console.log(`Student ${student.name} highest grade is ${student.highestGrade}`);
 });
 
 //3.2.- lowest grade per estudent
 
 students.map((student) => {
     student.lowestGrade = Math.min(...student.grades);
-    console.log(`Student ${student.name} lowest grade is ${student.lowestGrade}`);
 });
+
 
 //3.3 highes avage grade
 
 let highestAverageGrade = Math.max(...students.map((student) => student.average));
 
-console.log(`Highest average grade is ${highestAverageGrade}`);
 
 //3.4.- lowest average grade
 
 let lowestAverageGrade = Math.min(...students.map((student) => student.average));
 
-console.log(`Lowest average grade is ${lowestAverageGrade}`);
 
+console.log('******Sistema de notas******');
+students.forEach((student) => {
+    console.log(`Nombre: ${student.name}`);
+    console.log(`Clasificacion: ${student.classification}`);
+    console.log(`Promedio: ${student.average}`);
+    console.log(`Nota mas alta: ${student.highestGrade}`);
+    console.log(`Nota mas baja: ${student.lowestGrade}`);
+    console.log('------------------------------');
+});
+
+console.log('Estadisticas');
+console.log(`Promedio mas alto: ${highestAverageGrade}`);
+console.log(`Promedio mas bajo: ${lowestAverageGrade}`);
