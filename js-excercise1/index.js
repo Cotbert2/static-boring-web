@@ -102,28 +102,48 @@ students.forEach((student) => {
     student.average = getAverageGrade(student);
 });
 
+const getMax= (set) => {
+    let max = 0;
+    set.forEach((item) => {
+        if (item > max) {
+            max = item;
+        }
+    });
+    return max;
+}
+
+const getMin = (set) => {
+    let min = 20;
+    set.forEach((item) => {
+        if (item < min) {
+            min = item;
+        }
+    });
+    return min;
+}
+
 
 //3.2.- highest grade per estudent
 
 students.map((student) => {
-    student.highestGrade = Math.max(...student.grades);
+    student.highestGrade = getMax(student.grades);
 });
 
 //3.2.- lowest grade per estudent
 
 students.map((student) => {
-    student.lowestGrade = Math.min(...student.grades);
+    student.lowestGrade = getMin(student.grades);
 });
 
 
 //3.3 highes avage grade
 
-let highestAverageGrade = Math.max(...students.map((student) => student.average));
+let highestAverageGrade = getMax(students.map((student) => student.average));
 
 
 //3.4.- lowest average grade
 
-let lowestAverageGrade = Math.min(...students.map((student) => student.average));
+let lowestAverageGrade = getMin(students.map((student) => student.average));
 
 
 console.log('******Sistema de notas******');
