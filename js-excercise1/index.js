@@ -71,7 +71,10 @@ students.forEach((student) => {
 
 
 students.forEach((student, index) => {
-    let average = student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
+    
+    let average ;
+    if (student.grades.length === 0) average = 0;
+    else average= student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
     if (average >= 16) {
         student.classification = 'Excelent';
     } else if (average >= 12) {
