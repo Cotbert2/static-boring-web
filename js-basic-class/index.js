@@ -93,7 +93,7 @@ isEvenNumber = (number) => {
     return number % 2 === 0;
 }
 
-console.log( '3 is odd', isEvenNumber(3));
+console.log( '3 is even', isEvenNumber(3));
 
 //is major
 
@@ -111,8 +111,5 @@ const max = 30;
 
 const valueToEvaluate = 25;
 
-if(valueToEvaluate > min && valueToEvaluate < max){
-    console.log('El valor esta dentro del rango');
-} else {
-    console.log('El valor esta fuera del rango');
-}
+if(valueToEvaluate >= min && valueToEvaluate <= max)console.log('El valor esta dentro del rango');
+else console.log('El valor esta fuera del rango');
