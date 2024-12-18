@@ -52,7 +52,6 @@ let student10 = {
 
 let students = [student1, student2, student3, student4, student5, student6, student7, student8, student9, student10];
 
-console.log('Students', students);
 
 const addNewGrde = (student, newGrade) => {
     student.grades.push(newGrade);
@@ -86,7 +85,6 @@ students.forEach((student, index) => {
     }
 });
 
-console.log('students', students);
 
 
 
