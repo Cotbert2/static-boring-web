@@ -87,16 +87,13 @@ console.log('students', students);
 
 
 
-
-// console.log('Excelent grades students', excelentGradesStudents);
-// console.log('Good grades students', goodGradesStudents);
-// console.log('Aproved grades students', aprovedGradesStudents);
-// console.log('Failed grades students', failedGradesStudents);
-
 //3.- statistics
 
 //3.1.- average grade
 const getAverageGrade = (student) => {
+    if (student.grades.length === 0) {
+        return 0;
+    }
     return student.grades.reduce((acc, grade) => acc + grade) / student.grades.length;
 }
 
