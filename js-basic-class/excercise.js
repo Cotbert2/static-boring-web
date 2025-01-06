@@ -29,5 +29,5 @@ const esPar = (num) => {
     console.log('Promedio:', calcularPromedio(num1,num2,num3));
     console.log('Mayor:', determinarMayor(num1,num2));
     console.log('Es par:', esPar(num1));
-})(1,'',3);
+})(1,2,3);
 
