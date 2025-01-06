@@ -44,3 +44,16 @@ console.log('Map loop');
 heroes.map((hero) => {
     console.log(hero);
 });
+
+const calcularPromedio = (num1,num2,num3) => {
+
+}
+
+//determinar mayor con 2 numeros
+
+
+//es par, recibe un numero uy retorna tru o false
+
+//anonima autoejecutable
+
+//llame ala s funciones anteriores
