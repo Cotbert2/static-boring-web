@@ -20,7 +20,7 @@ class Inventario{
     }
 
     sellProduct(productName, quantity){
-        let product = this.productos.find(product => product.nombre === productName);
+        let product = this.productos.filter(product => product.nombre === productName)[0];
         if(product){
             if(product.cantidad >= quantity){
                 product.cantidad -= quantity;
