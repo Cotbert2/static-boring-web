@@ -225,7 +225,7 @@ inventario.printInventory();
 //report as a autocallfunction
 
 
-function report(){
+(function(){
     console.log("-----------------------------------------------");
     console.log("             Informe de la Tienda");
     console.log("-----------------------------------------------");
@@ -241,6 +241,4 @@ function report(){
     console.log("d) Producto más vendido");
     console.log(`El producto más vendido es: ${ventas.productoMasVendido}`);
 
-};
-
-report();
+})();
