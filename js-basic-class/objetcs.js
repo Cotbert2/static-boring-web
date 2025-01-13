@@ -108,3 +108,104 @@ Object.seal(add);
 
 
 let personaArray = Object.values(add);
+
+
+let personaGet = {
+    nombre : '',
+    apellido : '',
+
+    edad : 50,
+    get nombreCompleto() {
+        return this.nombre + ' ' + this.apellido;
+    },
+}
+
+console.log(personaGet.nombreCompleto);
+
+//set
+
+let personaSet = {
+    nombre : '',
+    apellido : '',
+    set nombreCompleto(value) {
+        value = value.split(' ');
+        this.nombre = value[0];
+        this.apellido = value[1];
+    }
+}
+
+
+personaSet.nombreCompleto = 'Juan Perez';
+
+
+//construcotr fun
+
+function PeronsaFC(nombre, apellido, email){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+}
+
+const personaFC = new PeronsaFC('Juan', 'Perez', 'm@xd.com');
+
+
+//add methods to constructor
+
+function PeronsaFC2(nombre, apellido, email){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+    this.nombreCompleto = function() {
+        return this.nombre + ' ' + this.apellido;
+    }
+}
+
+
+const personaFC2 = new PeronsaFC2('Juan', 'Perez', 'xd@xd.com');
+
+console.log(personaFC2.nombreCompleto());
+
+
+PeronsaFC2.prototype.tel = '1234567890';
+
+console.log(personaFC2.tel);
+
+
+//call
+
+let personaC1 = {
+    nombre : 'Juan',
+    apellido : 'Perez',
+    nombreCompleto : function() {
+        return this.nombre + ' ' + this.apellido;
+    }
+}
+
+
+let personaC2 = {
+    nombre : 'Carlos',
+    apellido : 'Lara',
+}
+
+
+console.log(personaC1.nombreCompleto());
+console.log(personaC1.nombreCompleto.call(personaC2));
+
+
+//pass argumentos to call fucntion
+
+let personaC3 = {
+    nombre : 'Juan',
+    apellido : 'Perez',
+    nombreCompleto : function(titulo, tel) {
+        return titulo + ': ' + this.nombre + ' ' + this.apellido + ', ' + tel;
+    }
+}
+
+let personaC4 = {
+    nombre : 'Carlos',
+    apellido : 'Lara',
+}
+
+console.log(personaC3.nombreCompleto('Lic', '1234567890'));
+console.log(personaC3.nombreCompleto.call(personaC4, 'Ing', '0987654321'));
