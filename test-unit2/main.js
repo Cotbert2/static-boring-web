@@ -22,6 +22,9 @@ class Producto{
 
 }
 
+//class inventory with atribute productos
+//Inventory has methods to add products, list products, sort products, filter products by category, apply discount by category
+//besides it has a private method to sort products with bubble sort
 
 class Inventory{
     productos = [];
@@ -36,6 +39,11 @@ class Inventory{
     addNewProduct(name, price, quantity, category){
         this.productos.push(new Producto(name, price, quantity, category));
     }
+
+
+    /*
+    @param ascOrDesc: string, "asc" or "desc"
+    */
 
     listAscOrDescProducts(ascOrDesc){
         const listedProducts = [];
@@ -102,20 +110,20 @@ class Inventory{
 }
 
 
+//class ventas with atributes ventas and inventory
+//ventas has methods to make a sale, print sales, get profits, get most sold product
+
 class Ventas{
     ventas = [];
 
     constructor(Inventory){
         this.inventory = Inventory;
-        console.log('inventario',this.inventory);
         this.ventas = [];
     }
 
     realizarVenta(nombreProducto,cantidad){
         //check if product exists and if there is enough quantity
         const product = this.inventory.productos.filter(producto => producto.nombre === nombreProducto)[0];
-        console.log('inventario',this.inventory);
-        console.log('producto filtrado',product);
         if(product === undefined){
             console.log("[-] producto inexistente");
             return;
@@ -171,6 +179,8 @@ class Ventas{
 
 ///execution
 
+//Into de following lines there is a test of the system you could comment them if you want se only the report
+
 
 let inventario = new Inventory();
 //adding products
@@ -178,7 +188,7 @@ let inventario = new Inventory();
 
 inventario.addNewProduct("Manzana", 1, 10, "frutas");
 inventario.addNewProduct("Pera", 2, 20, "frutas");
-inventario.addNewProduct("Vergengena", 3, 30, "verduras");
+inventario.addNewProduct("Berengena", 3, 30, "verduras");
 inventario.addNewProduct("Papa", 4, 40, "verduras");
 inventario.addNewProduct("Pollo", 5, 50, "carnes");
 inventario.addNewProduct("Res", 6, 60, "carnes");
@@ -190,7 +200,7 @@ inventario.printInventory();
 
 //filter carnes
 console.log("Filtering carnes");
-console.log(inventario.filterProductByCategory("frutas"));
+inventario.filterProductByCategory("carnes").forEach(producto => producto.imprimirProducto());
 
 //list asc
 console.log("Listing asc invenotry");
@@ -204,7 +214,7 @@ inventario.listAscOrDescProducts("desc");
 let ventas = new Ventas(inventario);
 ventas.realizarVenta("Manzana", 5);
 ventas.realizarVenta("Pera", 10);
-ventas.realizarVenta("Vergengena", 15);
+ventas.realizarVenta("Berengena", 15);
 
 
 //imposible sale
@@ -224,6 +234,8 @@ inventario.printInventory();
 
 //report as a autocallfunction
 
+//end of the test
+
 
 (function(){
     console.log("-----------------------------------------------");
@@ -232,9 +244,11 @@ inventario.printInventory();
     console.log("a) Inventario");
     console.log("-----------------------------------------------");
     inventario.printInventory();
+    console.log("-----------------------------------------------");
     console.log("b) Ventas");
     console.log("-----------------------------------------------");
     ventas.imprimirVentas();
+    console.log("-----------------------------------------------");
     console.log("c) Ganancias");
     console.log("-----------------------------------------------");
     console.log(`Total vendido en el dia: $${ventas.ganacias}`);
