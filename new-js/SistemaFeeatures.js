@@ -116,13 +116,24 @@ class Orden{
         return totalVenta;
     }
 
+    //3)metodo para calcular impuesto
+    calcularTotalConInpuestos(){
+        let totalVenta = this.calcularTotal();
+        let impuestos = 0;
+        for(let producto of this._productos){
+            impuestos += producto.calcularImpuesto();
+        }
+
+        return totalVenta + impuestos;
+    }
+
     mostrarOrden(){
         let productosOrden = '';
         for(let producto of this._productos){
             productosOrden += producto.toString() + ' \n';
         }
 
-        console.log(`Orden: ${this._idOrden}, Total: ${this.calcularTotal()}, Productos: ${productosOrden}`);
+        console.log(`Orden: ${this._idOrden}, Total: ${this.calcularTotal()}, Productos: ${productosOrden}, Total con impuestos: ${this.calcularTotalConInpuestos()}`);
     }
 
 
