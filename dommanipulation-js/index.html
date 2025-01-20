@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <link rel=stylesheet href=./css/styles.css>
+    <title>Manejo del Dom</title>
+</head>
+<body>
+    <h1>Manejo del DOM</h1>
+
+    <button type="button" onclick="mostrar()"></button>
+
+    <img id="imagen" src="./assets/img/dragon.jpeg" alt="">
+</body>
+
+<script>
+
+    let images = [
+        './assets/img/ball.jpeg',
+        './assets/img/dragon.jpeg',
+        './assets/img/ia.jpeg',
+        './assets/img/outlook.jpg',
+        './assets/img/illusion.jpeg',
+    ];
+
+    let currentImage = 0;
+
+
+    let imagen = document.getElementById('imagen');
+
+    mostrar = () => {
+        console.log('mostrando imagenes');
+        //set interval to change image every 2 seconds
+
+        setInterval(() => {
+            currentImage++;
+            if(currentImage >= images.length){
+                currentImage = 0;
+            }
+
+            imagen.src = images[currentImage];
+        }, 2000);
+    }
+
+
+    //crear una funcion que permite el cambio d euna imagencada 2 o 3 segundos
+
+    // document.write('Hola desde js');
+
+    // mostrar = () => {
+    //     document.write('Borrado');
+    // }
+</script>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <link rel=stylesheet href=./css/styles.css>
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario" action="">
+        <!--nombre-->
+        Nombre: <input type="text" name="name" id="name">
+        <br>
+        <!--apellido-->
+        Apellido: <input type="text" name="lastname" id="lastname">
+
+        <br>
+        Correo: <input type="email" name="email" id="email">
+        <br>
+    </form>
+    <button onclick="mostrarValores()"></button>
+</body>
+
+<div id="resultado">
+
+</div>
+
+<script>
+    mostrarValores = () => {
+        let form = document.forms['formulario'];
+        let text = '';
+
+        // let text = '';
+        // for (let element of form){
+        //     text += element.value + '<br>';
+        // }
+
+        let name = form['name'].value;
+        let lastname = form['lastname'].value;
+        let email = form['email'].value;
+
+        text = `Nombre: ${name} <br> Apellido: ${lastname} <br> Correo: ${email}`;
+
+        console.log('texto',text);
+        document.getElementById('resultado').innerHTML = text;
+    }
+</script>
+</html>

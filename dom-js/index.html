@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <link rel=stylesheet href=./css/styles.css>
+    <title>Dom</title>
+</head>
+<body>
+    <header>
+        <h1 class="azul">
+            Dom con js
+        </h1>
+        <p id="cabecera">Ejemplo de DOM con js</p>
+        <p id="parrafo">Saludos</p>
+    </header>
+</body>
+
+<script>
+    // let cabecera = document.getElementById('cabecera');
+    // console.log(`valor de cabecera: ${cabecera.innerHTML}`);
+
+
+    // let parr = document.getElementById('parrafo');
+    // console.log(`valor de parrafo: ${parr.innerHTML}`);
+
+    // parr.innerHTML = 'Hola desde js';
+    // console.log('saludos desdee js');
+
+
+    // let parrafos = document.getElementsByTagName('p');
+    // console.log(`No parrafos: ${parrafos.length}`);
+
+    // for( let parrafo of parrafos){
+    //     console.log
+    // }
+
+    let elemntos = document.querySelectorAll('h1.azul');
+    console.log(`No elementos: ${elemntos.length}`);
+
+    for( let elemento of elemntos){
+        console.log(`valor de elemento: ${elemento.innerHTML}`);
+    }
+</script>
+</html>
