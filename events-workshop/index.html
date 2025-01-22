@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <link rel=stylesheet href=./css/styles.css>
+    <title id="page-title">Task Manager</title>
+</head>
+<body>
+    <button id="shopanelButton">Pannel</button>
+    <div id="setting-panel">
+        <p>Settings Panel</p>
+
+        <form id="myform">
+            Page title: <input type="text" name="title" id="title">
+            <br>
+            <br>
+            Page background color: <input type="color" name="bgcolor" id="bgcolor">
+            <br>
+            <br>
+            Enable comentaries: <input type="checkbox" name="comentaries" id="comentaries">
+            <br>
+            <br>
+        </form>
+
+    </div>
+    
+            Comentaries: <textarea name="comentaries-textarea" id="comentaries-textarea" 
+            cols="30" rows="10"></textarea>
+
+            <div id="list">
+
+            </div>
+</body>
+
+<script>
+    //catch button
+    let panel = document.getElementById('setting-panel');
+    let isHiden = true;
+    document.getElementById('shopanelButton').addEventListener('click', () => {
+        if(isHiden){
+            panel.style.display = 'block';
+            isHiden = false;
+        }else{
+            panel.style.display = 'none';
+            isHiden = true;
+        }
+    });
+
+    //change page title while typing
+    let title = document.getElementById('title');
+    title.addEventListener('keyup', (ev) => {
+        document.getElementById('page-title').innerText = ev.target.value;
+    });
+
+    //change page background color
+
+    let bgcolor = document.getElementById('bgcolor');
+    bgcolor.addEventListener('change', (ev) => {
+        document.body.style.backgroundColor = ev.target.value;
+    });
+
+    //enable or disable comentaries
+
+    let isChecked = true
+
+    let comentaries = document.getElementById('comentaries');
+
+    comentaries.addEventListener('change', (ev) => {
+        console.log('change checkbox');
+        if(isChecked){
+            console.log('disabling')
+            document.getElementById('comentaries-textarea').disabled = true;
+            isChecked = false;
+        }else{
+            console.log('enabling')
+            document.getElementById('comentaries-textarea').disabled = false;
+            isChecked = true;
+        }
+    });
+
+    
+    //add elements to list
+    let list = document.getElementById('list');
+    
+    let elements = ['elemento 1', 'elemento 2', 'elemento 3', 'elemento 4', 'elemento 5'];
+    
+    let content = '';
+    
+    elements.forEach((element, index) => {
+        content += `<p  onclick="removeElementlist(${index})">${element}</p>`;
+    });
+    
+    list.innerHTML = content;
+
+    const removeElementlist = (index) => {
+        console.log('removing element', index);
+        elements.splice(index, 1);
+
+        let content = '';
+
+        elements.forEach((element, index) => {
+            content += `<p  onclick="removeElementlist(${index})">${element}</p>`;
+        });
+
+        list.innerHTML = content;
+
+    }
+
+</script>
+</html>
