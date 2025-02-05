@@ -1,0 +1,384 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\wwwroot\\js\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\wwwroot\\js\\medicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\wwwroot\\js\\medicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\medicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\medicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\tipomedicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\tipomedicamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\wwwroot\\js\\tipomedicamento.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\controllers\\tipomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\controllers\\tipomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\tipomedicamento\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\tipomedicamento\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\tipomedicamento\\listtipomedicamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\tipomedicamento\\listtipomedicamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BE1DDA-CC7F-4495-82E5-7731028B077C}|EntityLayer\\EntityLayer.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\entitylayer\\tipomedicamentoel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BE1DDA-CC7F-4495-82E5-7731028B077C}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\tipomedicamentoel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBE1B6BC-54FC-45B3-9F41-575A6A6AD3E8}|DataLayer\\DataLayer.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\datalayer\\tipomedicamentodl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBE1B6BC-54FC-45B3-9F41-575A6A6AD3E8}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tipomedicamentodl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0AE27-0AB7-4648-8CCE-E1EB2D89B615}|BussinesLayer\\BussinesLayer.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\bussineslayer\\tipomedicamentobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E0AE27-0AB7-4648-8CCE-E1EB2D89B615}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\tipomedicamentobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0AE27-0AB7-4648-8CCE-E1EB2D89B615}|BussinesLayer\\BussinesLayer.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\bussineslayer\\bussineslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4E0AE27-0AB7-4648-8CCE-E1EB2D89B615}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\bussineslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|c:\\users\\mateo\\development\\static-boring-web\\webapplicationdotnet\\webapplicationdotnet\\views\\tipomedicamento\\tipomedicamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03278036-53C4-4BF0-9536-E08D8BBAF591}|WebApplicationDotnet\\WebApplicationDotnet.csproj|solutionrelative:webapplicationdotnet\\views\\tipomedicamento\\tipomedicamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\MedicamentoController.cs",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Controllers\\MedicamentoController.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\MedicamentoController.cs",
+              "RelativeToolTip": "WebApplicationDotnet\\Controllers\\MedicamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:41:49.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "generic.js",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\generic.js",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\wwwroot\\js\\generic.js",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\generic.js",
+              "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\generic.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-05T15:00:41.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\TipoMedicamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:49:27.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:39:49.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medicamento.js",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\Medicamento.js",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\wwwroot\\js\\Medicamento.js",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\Medicamento.js",
+              "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\Medicamento.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-05T15:18:14.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoMedicamento.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\TipoMedicamento.cs",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Controllers\\TipoMedicamento.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\TipoMedicamento.cs",
+              "RelativeToolTip": "WebApplicationDotnet\\Controllers\\TipoMedicamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:42:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:48:06.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoMedicamento.js",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+              "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-05T14:16:28.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Medicamento\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\Medicamento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Medicamento\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\Medicamento\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T15:17:55.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-05T14:14:33.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Program.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Program.cs",
+              "RelativeToolTip": "WebApplicationDotnet\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T14:21:12.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TipoMedicamentoDL.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\DataLayer\\TipoMedicamentoDL.cs",
+              "RelativeDocumentMoniker": "DataLayer\\TipoMedicamentoDL.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\DataLayer\\TipoMedicamentoDL.cs",
+              "RelativeToolTip": "DataLayer\\TipoMedicamentoDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:52:41.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\TipoMedicamento\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\Inicio.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\Inicio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T14:41:41.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationDotnet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:41:15.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TipoMedicamentoEL.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\EntityLayer\\TipoMedicamentoEL.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\TipoMedicamentoEL.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\EntityLayer\\TipoMedicamentoEL.cs",
+              "RelativeToolTip": "EntityLayer\\TipoMedicamentoEL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:53:16.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ListTipoMedicamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\ListTipoMedicamento.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\TipoMedicamento\\ListTipoMedicamento.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\ListTipoMedicamento.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\ListTipoMedicamento.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T02:14:31.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoMedicamentoBL.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\BussinesLayer\\TipoMedicamentoBL.cs",
+              "RelativeDocumentMoniker": "BussinesLayer\\TipoMedicamentoBL.cs",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\BussinesLayer\\TipoMedicamentoBL.cs",
+              "RelativeToolTip": "BussinesLayer\\TipoMedicamentoBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:55:34.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BussinesLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\BussinesLayer\\BussinesLayer.csproj",
+              "RelativeDocumentMoniker": "BussinesLayer\\BussinesLayer.csproj",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\BussinesLayer\\BussinesLayer.csproj",
+              "RelativeToolTip": "BussinesLayer\\BussinesLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T01:57:44.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:47:42.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:47:42.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:47:40.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TipoMedicamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\TipoMedicamento.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationDotnet\\Views\\TipoMedicamento\\TipoMedicamento.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\Views\\TipoMedicamento\\TipoMedicamento.cshtml",
+              "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\TipoMedicamento.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T01:47:10.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
