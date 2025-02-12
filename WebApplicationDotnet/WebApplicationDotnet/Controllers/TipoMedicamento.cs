@@ -26,6 +26,18 @@ namespace WebApplicationDotnet.Controllers
             return tipoMedicamentoBL.listTipoMedicamento();
         }
 
+
+        public string connectionString() {
+            IConfigurationBuilder builder= new ConfigurationBuilder();
+            builder.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json"));
+            var root = builder.Build();
+            var cadenaDato = "not string connection found";
+            cadenaDato = root.GetConnectionString("cn");
+            return cadenaDato;
+        }
+
     }
+
+
 
 }

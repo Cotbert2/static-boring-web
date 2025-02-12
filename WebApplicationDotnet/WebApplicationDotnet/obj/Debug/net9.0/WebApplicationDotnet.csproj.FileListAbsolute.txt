@@ -105,7 +105,6 @@ C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplication
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\WebApplicationDotnet.csproj.AssemblyReference.cache
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\WebAppli.071400EC.Up2Date
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\e7xs7w5b1m-z7s3owm2md.gz
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-e4hhp4ynkz.gz
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\Humanizer.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -291,5 +290,13 @@ C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplication
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-ed12od6g0i.gz
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\x1ex17wc46-9yzwwcj3mf.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-j0so90s43a.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-bjkvknokb7.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\w9jgn1zxnn-lenp5jd7uk.gz

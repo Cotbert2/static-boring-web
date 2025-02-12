@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
+      "PackagePath": "staticwebassets\\js\\sucursales.js"
+    },
+    {
       "Id": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

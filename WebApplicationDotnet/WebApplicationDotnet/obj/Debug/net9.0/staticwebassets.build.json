@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kQlvG/P0CkMN4yiG6dmnQwjUF6FrUsYxGASXMpLbuzg=",
+  "Hash": "WqWNjsc9pcXcQJ1ee8xEg29I8CZ+J3B4GuihrCz0Hj0=",
   "Source": "WebApplicationDotnet",
   "BasePath": "_content/WebApplicationDotnet",
   "Mode": "Default",
@@ -353,12 +353,12 @@
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-ed12od6g0i.gz",
+      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-bjkvknokb7.gz",
       "SourceId": "WebApplicationDotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApplicationDotnet",
-      "RelativePath": "js/generic#[.{fingerprint=ed12od6g0i}]?.js.gz",
+      "RelativePath": "js/generic#[.{fingerprint=bjkvknokb7}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -367,8 +367,8 @@
       "RelatedAsset": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\generic.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kr6j4hu2ua",
-      "Integrity": "AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss=",
+      "Fingerprint": "rygdz1pidt",
+      "Integrity": "3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\generic.js"
@@ -1109,12 +1109,12 @@
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-e4hhp4ynkz.gz",
+      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-j0so90s43a.gz",
       "SourceId": "WebApplicationDotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApplicationDotnet",
-      "RelativePath": "js/TipoMedicamento#[.{fingerprint=e4hhp4ynkz}]?.js.gz",
+      "RelativePath": "js/TipoMedicamento#[.{fingerprint=j0so90s43a}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1f09crumfy",
-      "Integrity": "XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo=",
+      "Fingerprint": "5kgaa9m13i",
+      "Integrity": "q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js"
@@ -1233,6 +1233,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\w9jgn1zxnn-lenp5jd7uk.gz",
+      "SourceId": "WebApplicationDotnet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApplicationDotnet",
+      "RelativePath": "js/sucursales#[.{fingerprint=lenp5jd7uk}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ut8z9194za",
+      "Integrity": "cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js"
     },
     {
       "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\wio9lzu8ae-s35ty4nyc5.gz",
@@ -1522,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ed12od6g0i",
-      "Integrity": "jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=",
+      "Fingerprint": "bjkvknokb7",
+      "Integrity": "t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\generic.js"
@@ -1571,6 +1592,27 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
+      "SourceId": "WebApplicationDotnet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\",
+      "BasePath": "_content/WebApplicationDotnet",
+      "RelativePath": "js/sucursales#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lenp5jd7uk",
+      "Integrity": "Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sucursales.js"
+    },
+    {
       "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
       "SourceId": "WebApplicationDotnet",
       "SourceType": "Discovered",
@@ -1585,8 +1627,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e4hhp4ynkz",
-      "Integrity": "EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=",
+      "Fingerprint": "j0so90s43a",
+      "Integrity": "LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\TipoMedicamento.js"
@@ -3450,13 +3492,13 @@
       ]
     },
     {
-      "Route": "js/generic.ed12od6g0i.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-ed12od6g0i.gz",
+      "Route": "js/generic.bjkvknokb7.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-bjkvknokb7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003164556962"
+          "Quality": "0.001250000000"
         }
       ],
       "ResponseHeaders": [
@@ -3466,15 +3508,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "315"
+          "Value": "799"
         },
         {
           "Name": "ETag",
-          "Value": "\"AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss=\""
+          "Value": "\"3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3494,13 +3536,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=\""
+          "Value": "W/\"t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ed12od6g0i"
+          "Value": "bjkvknokb7"
         },
         {
           "Name": "label",
@@ -3508,12 +3550,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw="
+          "Value": "sha256-t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU="
         }
       ]
     },
     {
-      "Route": "js/generic.ed12od6g0i.js",
+      "Route": "js/generic.bjkvknokb7.js",
       "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\generic.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3523,7 +3565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "640"
+          "Value": "2334"
         },
         {
           "Name": "Content-Type",
@@ -3531,11 +3573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=\""
+          "Value": "\"t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3545,7 +3587,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ed12od6g0i"
+          "Value": "bjkvknokb7"
         },
         {
           "Name": "label",
@@ -3553,13 +3595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw="
+          "Value": "sha256-t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU="
         }
       ]
     },
     {
-      "Route": "js/generic.ed12od6g0i.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-ed12od6g0i.gz",
+      "Route": "js/generic.bjkvknokb7.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-bjkvknokb7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3568,7 +3610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "315"
+          "Value": "799"
         },
         {
           "Name": "Content-Type",
@@ -3576,11 +3618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss=\""
+          "Value": "\"3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3598,7 +3640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ed12od6g0i"
+          "Value": "bjkvknokb7"
         },
         {
           "Name": "label",
@@ -3606,18 +3648,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss="
+          "Value": "sha256-3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338="
         }
       ]
     },
     {
       "Route": "js/generic.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-ed12od6g0i.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-bjkvknokb7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003164556962"
+          "Quality": "0.001250000000"
         }
       ],
       "ResponseHeaders": [
@@ -3627,15 +3669,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "315"
+          "Value": "799"
         },
         {
           "Name": "ETag",
-          "Value": "\"AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss=\""
+          "Value": "\"3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3655,13 +3697,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=\""
+          "Value": "W/\"t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw="
+          "Value": "sha256-t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU="
         }
       ]
     },
@@ -3676,7 +3718,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "640"
+          "Value": "2334"
         },
         {
           "Name": "Content-Type",
@@ -3684,11 +3726,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=\""
+          "Value": "\"t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3698,13 +3740,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw="
+          "Value": "sha256-t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU="
         }
       ]
     },
     {
       "Route": "js/generic.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-ed12od6g0i.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\5v1u2zoy1l-bjkvknokb7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3713,7 +3755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "315"
+          "Value": "799"
         },
         {
           "Name": "Content-Type",
@@ -3721,11 +3763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss=\""
+          "Value": "\"3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:24:42 GMT"
+          "Value": "Mon, 10 Feb 2025 17:36:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3743,7 +3785,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AI/wNa/GbiyzVYgYKOtcw4r0I5AzdXMzHNW3wIQR8Ss="
+          "Value": "sha256-3bFAWhX0MRWGYofDYYe/Jrj6dLYrLe51VxJo4R+V338="
         }
       ]
     },
@@ -4344,13 +4386,13 @@
       ]
     },
     {
-      "Route": "js/TipoMedicamento.e4hhp4ynkz.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-e4hhp4ynkz.gz",
+      "Route": "js/sucursales.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\w9jgn1zxnn-lenp5jd7uk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003021148036"
+          "Quality": "0.005464480874"
         }
       ],
       "ResponseHeaders": [
@@ -4360,15 +4402,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "330"
+          "Value": "182"
         },
         {
           "Name": "ETag",
-          "Value": "\"XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo=\""
+          "Value": "\"cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8="
+        }
+      ]
+    },
+    {
+      "Route": "js/sucursales.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8="
+        }
+      ]
+    },
+    {
+      "Route": "js/sucursales.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\w9jgn1zxnn-lenp5jd7uk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY="
+        }
+      ]
+    },
+    {
+      "Route": "js/sucursales.lenp5jd7uk.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\w9jgn1zxnn-lenp5jd7uk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005464480874"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4388,13 +4567,174 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=\""
+          "Value": "W/\"Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e4hhp4ynkz"
+          "Value": "lenp5jd7uk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sucursales.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8="
+        }
+      ]
+    },
+    {
+      "Route": "js/sucursales.lenp5jd7uk.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lenp5jd7uk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sucursales.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8="
+        }
+      ]
+    },
+    {
+      "Route": "js/sucursales.lenp5jd7uk.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\w9jgn1zxnn-lenp5jd7uk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 19:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lenp5jd7uk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/sucursales.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cvS13AiTAvpkuInSOJd2N/IMBPbVDT2XQthGzIOMBtY="
+        }
+      ]
+    },
+    {
+      "Route": "js/TipoMedicamento.j0so90s43a.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-j0so90s43a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001730103806"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j0so90s43a"
         },
         {
           "Name": "label",
@@ -4402,12 +4742,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ="
+          "Value": "sha256-LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk="
         }
       ]
     },
     {
-      "Route": "js/TipoMedicamento.e4hhp4ynkz.js",
+      "Route": "js/TipoMedicamento.j0so90s43a.js",
       "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4417,7 +4757,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "697"
+          "Value": "1737"
         },
         {
           "Name": "Content-Type",
@@ -4425,11 +4765,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=\""
+          "Value": "\"LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4439,7 +4779,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e4hhp4ynkz"
+          "Value": "j0so90s43a"
         },
         {
           "Name": "label",
@@ -4447,13 +4787,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ="
+          "Value": "sha256-LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk="
         }
       ]
     },
     {
-      "Route": "js/TipoMedicamento.e4hhp4ynkz.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-e4hhp4ynkz.gz",
+      "Route": "js/TipoMedicamento.j0so90s43a.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-j0so90s43a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4462,7 +4802,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "330"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -4470,11 +4810,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo=\""
+          "Value": "\"q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4492,7 +4832,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e4hhp4ynkz"
+          "Value": "j0so90s43a"
         },
         {
           "Name": "label",
@@ -4500,18 +4840,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo="
+          "Value": "sha256-q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8="
         }
       ]
     },
     {
       "Route": "js/TipoMedicamento.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-e4hhp4ynkz.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-j0so90s43a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003021148036"
+          "Quality": "0.001730103806"
         }
       ],
       "ResponseHeaders": [
@@ -4521,15 +4861,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "330"
+          "Value": "577"
         },
         {
           "Name": "ETag",
-          "Value": "\"XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo=\""
+          "Value": "\"q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4549,13 +4889,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=\""
+          "Value": "W/\"LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ="
+          "Value": "sha256-LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk="
         }
       ]
     },
@@ -4570,7 +4910,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "697"
+          "Value": "1737"
         },
         {
           "Name": "Content-Type",
@@ -4578,11 +4918,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=\""
+          "Value": "\"LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4592,13 +4932,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ="
+          "Value": "sha256-LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk="
         }
       ]
     },
     {
       "Route": "js/TipoMedicamento.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-e4hhp4ynkz.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-j0so90s43a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4607,7 +4947,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "330"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -4615,11 +4955,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo=\""
+          "Value": "\"q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 15:06:32 GMT"
+          "Value": "Fri, 07 Feb 2025 19:39:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4637,7 +4977,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XaL9NfADcpxwbd6UWRORbrCP1zwVpHe3sITI1hz6Zpo="
+          "Value": "sha256-q9/T0e9nHkWs+GxujLlyQF5I25VIldhn9lSIlrUdGf8="
         }
       ]
     },

@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ed12od6g0i</Fingerprint>
-      <Integrity>jsDWyZZcx/zts77thjdwZNSgImDDgoclmJ55G0Cihjw=</Integrity>
+      <Fingerprint>bjkvknokb7</Fingerprint>
+      <Integrity>t0n5q3HxyhY7dZpiGVuZ5ZfCOlfaCRZ9o5/e8SNUuoU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generic.js'))</OriginalItemSpec>
@@ -90,6 +90,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sucursales.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebApplicationDotnet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebApplicationDotnet</BasePath>
+      <RelativePath>js/sucursales.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lenp5jd7uk</Fingerprint>
+      <Integrity>Q9wtycE4fubMPiMZt0YcJT1TZdSTE54uMhePEDKxRz8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sucursales.js'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\TipoMedicamento.js'))">
       <SourceType>Package</SourceType>
       <SourceId>WebApplicationDotnet</SourceId>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e4hhp4ynkz</Fingerprint>
-      <Integrity>EmaAn+Rmh0rx7QOIcceqgk9CWV+BPb3ZGgHUS/A3HAQ=</Integrity>
+      <Fingerprint>j0so90s43a</Fingerprint>
+      <Integrity>LfMNaO2vql+sCdGds37nWeomyIxp7/dqA8u1ffbpzLk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\TipoMedicamento.js'))</OriginalItemSpec>

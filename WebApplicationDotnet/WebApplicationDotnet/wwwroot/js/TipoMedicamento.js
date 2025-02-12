@@ -4,10 +4,42 @@
 
 
 const listarTipoMedicamento = async () => {
-
-    fetchget("/TipoMedicamento/listTipoMedicamento", "json", (data) => {
-        alert(JSON.stringify(data));
+    paint({
+        url: '/TipoMedicamento/listTipoMedicamento',
+        cabeceras: ['idTipoMedicamento', 'nombre', 'descripcion'],
+        propiedades: ['idMedicamento', 'nombre', 'descripcion']
     });
+
+
+
+    //fetchget("/TipoMedicamento/listTipoMedicamento", "json", (data) => {
+    //    let lenRegister = data.length;
+    //    let contenido = "";
+    //    contenido += "<table class='table table-bordered'>";
+    //    contenido += "<thead>";
+    //    contenido += "<tr>";
+    //    contenido += "<th>Id</th>";
+    //    contenido += "<th>Nombre</th>";
+    //    contenido += "<th>Descripcion</th>";
+    //    contenido += "</tr>";
+    //    for (let i = 0; i < lenRegister; i++) {
+    //        contenido += "<tr>";
+    //        contenido += "<td>" + data[i].idMedicamento + "</td>";
+    //        contenido += "<td>" + data[i].nombre + "</td>";
+    //        contenido += "<td>" + data[i].descripcion + "</td>";
+    //        contenido += "</tr>";
+    //    }
+    //    contenido += "</table>";
+
+    //    document.getElementById("divtable").innerHTML = contenido;
+
+
+    //    alert(JSON.stringify(data));
+
+
+    };
+
+
 
     //try {
     //    let raiz = document.getElementById("hdfOculto").value;
@@ -25,4 +57,3 @@ const listarTipoMedicamento = async () => {
     //catch (error) {
     //    console.log(error);
     //}
-}

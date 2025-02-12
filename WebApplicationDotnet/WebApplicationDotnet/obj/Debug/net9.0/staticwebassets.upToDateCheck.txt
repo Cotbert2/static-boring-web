@@ -54,6 +54,7 @@ C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplication
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\js\sucursales.js
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\wwwroot\js\Medicamento.js
@@ -68,6 +69,7 @@ wwwroot\favicon.ico
 wwwroot\js\generic.js
 wwwroot\js\Medicamento.js
 wwwroot\js\site.js
+wwwroot\js\sucursales.js
 wwwroot\js\TipoMedicamento.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
