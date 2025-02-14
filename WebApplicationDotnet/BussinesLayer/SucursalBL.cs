@@ -11,6 +11,7 @@ namespace BussinesLayer
         {
             TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
             return tipoMedicamentoDL.listarSucursales();
+
         }
     }
 }
