@@ -291,12 +291,12 @@ C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplication
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\x1ex17wc46-9yzwwcj3mf.gz
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-j0so90s43a.gz
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\System.Data.SqlClient.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-bjkvknokb7.gz
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\w9jgn1zxnn-lenp5jd7uk.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-6p52n3p3gf.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-2xdymlckaz.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\w9jgn1zxnn-v6zr8isc3p.gz

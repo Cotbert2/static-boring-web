@@ -10,5 +10,11 @@ namespace BussinesLayer
             TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
             return tipoMedicamentoDL.listTipoMedicamento();
         }
+
+        public List<TipoMedicamentoEL> filtrarTipoMedicamento(string descripcion)
+        {
+            TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
+            return tipoMedicamentoDL.filtrarTipoMedicamento(descripcion);
+        }
     }
 }

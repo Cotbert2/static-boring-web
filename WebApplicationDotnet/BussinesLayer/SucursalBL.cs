@@ -9,8 +9,15 @@ namespace BussinesLayer
     {
         public List<SucursalEL> listarSucursales()
         {
-            TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
-            return tipoMedicamentoDL.listarSucursales();
+            SucursalesDL sucursales = new SucursalesDL();
+            return sucursales.listarSucursales();
+
+        }
+
+        public List<SucursalEL> filtrarSucursal(string nombre)
+        {
+            SucursalesDL sucursales = new SucursalesDL();
+            return sucursales.filtrarSucursal(nombre);
 
         }
     }

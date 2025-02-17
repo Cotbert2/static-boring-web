@@ -27,6 +27,14 @@ namespace WebApplicationDotnet.Controllers
         }
 
 
+        public List<EntityLayer.TipoMedicamentoEL> filtrarTipoMedicamento(string descripcion)
+        {
+            descripcion = (descripcion == null) ? "" : descripcion;
+            BussinesLayer.TipoMedicamentoBL tipoMedicamentoBL = new BussinesLayer.TipoMedicamentoBL();
+            return tipoMedicamentoBL.filtrarTipoMedicamento(descripcion);
+        }
+
+
         public string connectionString() {
             IConfigurationBuilder builder= new ConfigurationBuilder();
             builder.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json"));

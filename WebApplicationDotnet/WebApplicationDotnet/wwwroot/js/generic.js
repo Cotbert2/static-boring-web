@@ -1,4 +1,14 @@
-﻿const fetchget = async (customUrl, responseType, customCallback) => {
+﻿const getElement = (id) => {
+    return document.getElementById(id).value;
+}
+
+const setValues = (id, value) => {
+    document.getElementById(id).value = value;
+}
+
+
+
+const fetchget = async (customUrl, responseType, customCallback) => {
     try {
         let raiz = document.getElementById("hdfOculto").value;
 

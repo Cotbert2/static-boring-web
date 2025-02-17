@@ -37,7 +37,18 @@ const listarTipoMedicamento = async () => {
     //    alert(JSON.stringify(data));
 
 
-    };
+};
+
+
+const buscar = () => {
+    const searchField = document.getElementById('txtNombreBusqueda');
+
+    paint({
+        url: `/TipoMedicamento/filtrarTipoMedicamento?descripcion=${searchField.value}`,
+        cabeceras: ['idTipoMedicamento', 'nombre', 'descripcion'],
+        propiedades: ['idMedicamento', 'nombre', 'descripcion']
+    });
+}
 
 
 
