@@ -6,16 +6,96 @@
 
 <h1>Listando Sucursales</h1>
 
+
+@* <fieldset>
+    <legend>Crear Sucursal</legend>
+    <form class="row g-3" id="frmGuardar" method="post">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="nombre" name="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="direccion" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="direccion" placeholder="Una Direccion" name="direccion">
+        </div>
+
+    </form>
+    <div class="row g-3 d-flex">
+        <button type="submit" class="btn btn-primary" onclick="crearSucursal()">Buscar</button>
+        <button type="submit" class="btn btn-danger" onclick="limpiarTipoMedicamento()">Limpiar</button>
+    </div>
+</fieldset> *@
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Crear Sucursal</h5>
+    </div>
+    <div class="card-body">
+        <fieldset>
+            <legend class="h6">Detalles de la Sucursal</legend>
+            <form class="row g-3" id="frmGuardar" method="post">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="direccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Una dirección" name="direccion">
+                </div>
+                <div class="col-12 d-flex gap-2 mt-3">
+                    <button type="button" class="btn btn-primary" onclick="crearSucursal()">Buscar</button>
+                    <button type="button" class="btn btn-danger" onclick="limpiarTipoMedicamento()">Limpiar</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+
+
+
 <div id="divtable">
 </div>
 
 
 
-<div class="input-group mb-3">
-    <input id="txtNombreBusqueda" type="text" class="form-control" placeholder="Ingrese nombre sucursal" aria-label="Busqueda.." aria-describedby="button-addon2">
+@* <div class="input-group mb-3">
+    <input id="txtNombreBusqueda" type="text" class="form-control" placeholder="Ingrese nombre sucursal" aria-label="Busqueda.." aria-describedby="button-addon2" onkeyup="filtrarSucursalKeyUp()">
     <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="buscar()">Buscar</button>
     <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="limpiarControl()">Limpiar</button>
-</div>
+</div> *@
+
+
+@* <fieldset>
+    <legend>Busqueda de Laboratorio</legend>
+    <form class="row g-3" id="formBuqueda" method="post">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="nombre" placeholder="nombre" name="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="direccion" class="form-label">Direccion</label>
+            <input type="password" class="form-control" id="direccion" placeholder="Una Direccion" name="direccion">
+        </div>
+
+    </form>
+    <div class="row g-3 d-flex">
+        <button type="submit" class="btn btn-primary" onclick="buscarSucursal()">Buscar</button>
+        <button type="submit" class="btn btn-danger" onclick="limpiarSucursales()">Eliminar</button>
+    </div>
+</fieldset> *@
+
+<br />
+
+
+<!--
+                public int idSucursal { get; set; }
+            public string nombre { get; set; }
+            public string direccion { get; set; }
+-->
+
+
 
 <script src="~/js/generic.js"></script>
 <script src="~/js/sucursales.js"></script>

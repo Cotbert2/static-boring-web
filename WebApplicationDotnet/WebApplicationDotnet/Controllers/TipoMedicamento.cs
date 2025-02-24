@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EntityLayer;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplicationDotnet.Controllers
 {
@@ -42,6 +43,28 @@ namespace WebApplicationDotnet.Controllers
             var cadenaDato = "not string connection found";
             cadenaDato = root.GetConnectionString("cn");
             return cadenaDato;
+        }
+
+
+        public int guardarDatos(TipoMedicamentoEL myTipoMedicamento)
+        {
+            BussinesLayer.TipoMedicamentoBL tipoMedicamentoBL = new BussinesLayer.TipoMedicamentoBL();
+            return tipoMedicamentoBL.guardarDatos(myTipoMedicamento);
+        }
+
+
+        public TipoMedicamentoEL recuperarTipoMedicamento(int idMedicamento)
+        {
+
+
+            BussinesLayer.TipoMedicamentoBL tipoMedicamentoBL = new BussinesLayer.TipoMedicamentoBL();
+            return tipoMedicamentoBL.recuperarTipoMedicamento(idMedicamento);
+        }
+
+        public int updateTipoMedicamento(TipoMedicamentoEL myTipoMedicamento)
+        {
+            BussinesLayer.TipoMedicamentoBL tipoMedicamentoBL = new BussinesLayer.TipoMedicamentoBL();
+            return tipoMedicamentoBL.updateTipoMedicamento(myTipoMedicamento);
         }
 
     }

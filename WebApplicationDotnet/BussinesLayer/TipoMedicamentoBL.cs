@@ -16,5 +16,23 @@ namespace BussinesLayer
             TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
             return tipoMedicamentoDL.filtrarTipoMedicamento(descripcion);
         }
+
+        public int guardarDatos(TipoMedicamentoEL myTipoMedicamento)
+        {
+            TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
+            return tipoMedicamentoDL.guardarDatos(myTipoMedicamento);
+        }
+
+        public TipoMedicamentoEL recuperarTipoMedicamento(int idMedicamento)
+        {
+            TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
+            return tipoMedicamentoDL.recuperarTipoMedicamento(idMedicamento);
+        }
+
+        public int updateTipoMedicamento(TipoMedicamentoEL myTipoMedicamento)
+        {
+            TipoMedicamentoDL tipoMedicamentoDL = new TipoMedicamentoDL();
+            return tipoMedicamentoDL.updateTipoMedicamento(myTipoMedicamento);
+        }
     }
 }

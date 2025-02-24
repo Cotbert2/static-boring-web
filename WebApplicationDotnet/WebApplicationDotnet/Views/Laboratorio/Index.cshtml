@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Listando Laboratorios</h1>
+
+@* <fieldset>
+    <legend>Busqueda de Laboratorio</legend>
+    <form class="row g-3" id="formBuqueda" method="post">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="nombre" placeholder="una persona" name="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="direccion" class="form-label">Direccion</label>
+            <input type="password" class="form-control" id="direccion" placeholder="Una Direccion" name="direccion">
+        </div>
+        <div class="col-12">
+            <label for="personaContacto" class="form-label">Persona Contacto</label>
+            <input type="text" class="form-control" id="personaContacto" placeholder="Una persona" name="personacontacto">
+        </div>
+
+    </form>
+        <div class="row g-3 d-flex">
+                <button type="submit" class="btn btn-primary" onclick="buscarLaboratorio()">Buscar</button>
+                <button type="submit" class="btn btn-danger" onclick="limpiarLaboratorio()">Eliminar</button>
+        </div>
+</fieldset> *@
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Búsqueda de Laboratorio</h5>
+    </div>
+    <div class="card-body">
+        <fieldset>
+            <legend class="h6">Detalles de la Búsqueda</legend>
+            <form class="row g-3" id="formBuqueda" method="post">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre del laboratorio" name="nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="direccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Dirección del laboratorio" name="direccion">
+                </div>
+                <div class="col-12">
+                    <label for="personaContacto" class="form-label">Persona de Contacto</label>
+                    <input type="text" class="form-control" id="personaContacto" placeholder="Nombre de contacto" name="personaContacto">
+                </div>
+                <div class="col-12 d-flex gap-2 mt-3">
+                    <button type="button" class="btn btn-primary" onclick="buscarLaboratorio()">Buscar</button>
+                    <button type="button" class="btn btn-danger" onclick="limpiarLaboratorio()">Eliminar</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+
+
+
+<div id="divtable">
+</div>
+
+
+
+@* <div class="input-group mb-3">
+    <input id="txtNombreBusqueda" type="text" class="form-control" placeholder="Ingrese nombre sucursal" aria-label="Busqueda.." aria-describedby="button-addon2" onkeyup="filtrarSucursalKeyUp()">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="buscar()">Buscar</button>
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="limpiarControl()">Limpiar</button>
+</div>
+ *@
+<script src="~/js/generic.js"></script>
+<script src="~/js/Laboratorio.js"></script>

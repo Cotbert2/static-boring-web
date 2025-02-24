@@ -7,16 +7,73 @@
 
 <p>Vista Tipo Medicamento</p>
 
+@* <fieldset>
+    <legend>Guardar Tipo Medicamento</legend>
+    <form class="row g-3" id="frmGuardar" method="post">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="nombre" placeholder="una persona" name="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="descripcion" class="form-label">Descipcion</label>
+            <input type="text" class="form-control" id="descripcion" placeholder="Una Descipcion" name="descripcion">
+        </div>
+
+    </form>
+    <div class="row g-3 d-flex">
+        <button type="submit" class="btn btn-primary" onclick="guardarTipoMedicamento()">Guardar</button>
+        <button type="submit" class="btn btn-danger" onclick="limpiarTipoMedicamento()">Eliminar</button>
+    </div>
+</fieldset> *@
+
+
+<div class="input-group mb-3">
+    <input id="txtNombreBusqueda" type="text" class="form-control" placeholder="Ingrese nombre sucursal" aria-label="Busqueda.." aria-describedby="button-addon2" onkeyup="filtrarTipoMedicamentoKeyUp()">
+    @*  <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="buscar()">Buscar</button> *@
+</div>
+
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="mb-0">Guardar Tipo Medicamento</h5>
+    </div>
+    <div class="card-body">
+        <form class="row g-3" id="frmGuardar" method="post">
+            <div class="col-md-6">
+                <label for="idMedicamento" class="form-label">idMedicamento</label>
+                <input type="text" class="form-control" id="idMedicamento" placeholder="id del tipo medicamento" name="idMedicamento">
+            </div>
+
+
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="una persona" name="nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <input type="text" class="form-control" id="descripcion" placeholder="Una descripción" name="descripcion">
+            </div>
+            <div class="col-12 d-flex gap-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="guardarTipoMedicamento()">Guardar</button>
+                <button type="button" class="btn btn-danger" onclick="limpiarTipoMedicamento()">Limpiar</button>
+                <!--Edit-->
+                <button type="button" class="btn btn-warning" onclick="editarTipoMedicamento()">Editar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
 
 <div id="divtable">
 
 </div>
 
 
-<div class="input-group mb-3">
-    <input id="txtNombreBusqueda" type="text" class="form-control" placeholder="Ingrese nombre sucursal" aria-label="Busqueda.." aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="buscar()">Buscar</button>
-</div>
+
+
+
 
 <script src="~/js/generic.js"></script>
 <script src="~/js/TipoMedicamento.js"></script>

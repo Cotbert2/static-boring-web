@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\Laboratorio.js",
+      "PackagePath": "staticwebassets\\js\\Laboratorio.js"
+    },
+    {
       "Id": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\Medicamento.js",
       "PackagePath": "staticwebassets\\js\\Medicamento.js"
     },

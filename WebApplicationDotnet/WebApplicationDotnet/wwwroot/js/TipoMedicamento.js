@@ -2,13 +2,22 @@
     listarTipoMedicamento();
 }
 
+let objTipoMedicamentoGlobal;
 
 const listarTipoMedicamento = async () => {
-    paint({
+
+
+    objTipoMedicamentoGlobal =
+    {
         url: '/TipoMedicamento/listTipoMedicamento',
         cabeceras: ['idTipoMedicamento', 'nombre', 'descripcion'],
-        propiedades: ['idMedicamento', 'nombre', 'descripcion']
-    });
+        propiedades: ['idMedicamento', 'nombre', 'descripcion'],
+        isEditable: true,
+        isDeleteable: true,
+        idkey: 'idMedicamento'
+    }
+
+    paint(objTipoMedicamentoGlobal);
 
 
 
@@ -43,13 +52,36 @@ const listarTipoMedicamento = async () => {
 const buscar = () => {
     const searchField = document.getElementById('txtNombreBusqueda');
 
-    paint({
-        url: `/TipoMedicamento/filtrarTipoMedicamento?descripcion=${searchField.value}`,
-        cabeceras: ['idTipoMedicamento', 'nombre', 'descripcion'],
-        propiedades: ['idMedicamento', 'nombre', 'descripcion']
-    });
+    objTipoMedicamentoGlobal.url = `/TipoMedicamento/filtrarTipoMedicamento?descripcion=${searchField.value}`
+    paint(objTipoMedicamentoGlobal);
+
+    //paint({
+    //    url: `/TipoMedicamento/filtrarTipoMedicamento?descripcion=${searchField.value}`,
+    //    cabeceras: ['idTipoMedicamento', 'nombre', 'descripcion'],
+    //    propiedades: ['idMedicamento', 'nombre', 'descripcion']
+    //});
+    /*
+        const searchField = document.getElementById('txtNombreBusqueda');
+    objSucursalGlobal.url = `/Sucursal/filtrarSucursales?nombre=${searchField.value}`;
+
+    paint(objSucursalGlobal);
+    */
 }
 
+
+const filtrarTipoMedicamentoKeyUp = () => {
+    const searchField = document.getElementById('txtNombreBusqueda');
+
+    if (searchField.value == "") {
+        listarTipoMedicamento();
+        return;
+    }
+
+
+    objTipoMedicamentoGlobal.url = `/TipoMedicamento/filtrarTipoMedicamento?descripcion=${searchField.value}`
+    paint(objTipoMedicamentoGlobal);
+
+}
 
 
     //try {
@@ -68,3 +100,59 @@ const buscar = () => {
     //catch (error) {
     //    console.log(error);
     //}
+
+
+const guardarTipoMedicamento = () => {
+    let frmGuardarTipoMedicamento = document.getElementById("frmGuardar");
+    let myForm = new FormData(frmGuardarTipoMedicamento);
+
+    postFetch("/Tipomedicamento/guardarDatos", "text", myForm, (data) => {
+        if (data == 1) {
+            listarTipoMedicamento();
+            limpiarTipoMedicamento();
+        }
+        alert(data == 1 ? 'Medicamento Guardado exitosamente' : 'No se pudo ingresar el medicamento');
+        //listarTipoMedicamento();
+    });
+}
+
+const limpiarTipoMedicamento = () => {
+    cleanData("frmGuardar");
+}
+
+const Editar = (idToEdit) => {
+    //fetchget(`/TipoMedicamento/recuperarTipoMedicamento?idMedicamento=${idToEdit}`, "json", (data) => {
+    //    document.getElementsByName("idMedicamento")[0].value = data.idMedicamento;
+    //    document.getElementsByName("nombre")[0].value = data.nombre;
+    //    document.getElementsByName("descripcion")[0].value = data.descripcion;
+
+    //});
+
+    recuperarGenerico(`/TipoMedicamento/recuperarTipoMedicamento?idMedicamento=${idToEdit}`, "frmGuardar");
+}
+
+
+const editarTipoMedicamento = () => {
+    let frmGuardarTipoMedicamento = document.getElementById("frmGuardar");
+    let myForm = new FormData(frmGuardarTipoMedicamento);
+
+    //validate for all fields written
+
+    if (myForm.get("idMedicamento") == "" || myForm.get("nombre") == "" || myForm.get("descripcion") == "") {
+        alert("Debe llenar todos los campos");
+        return;
+    }
+
+    postFetch("/TipoMedicamento/updateTipoMedicamento", "text", myForm, (data) => {
+        console.log(data);
+        if (data == 1) {
+            listarTipoMedicamento();
+            limpiarTipoMedicamento();
+        }
+        alert(data == 1 ? 'Medicamento Editado exitosamente' : 'No se pudo editar el medicamento');
+    });
+}
+
+const Eliminar = (idToDelete) => {
+    alert( idToDelete);
+}

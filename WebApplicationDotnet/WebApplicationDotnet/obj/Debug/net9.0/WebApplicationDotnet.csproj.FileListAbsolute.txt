@@ -297,6 +297,7 @@ C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplication
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-6p52n3p3gf.gz
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-2xdymlckaz.gz
-C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\w9jgn1zxnn-v6zr8isc3p.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\iqbaicaoej-5qj3pd7nhh.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\w9jgn1zxnn-v4vgjc5jkf.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\5v1u2zoy1l-d6cok96o4o.gz
+C:\Users\mateo\Development\static-boring-web\WebApplicationDotnet\WebApplicationDotnet\obj\Debug\net9.0\compressed\t3n8wjuaqb-pqlelj5oas.gz

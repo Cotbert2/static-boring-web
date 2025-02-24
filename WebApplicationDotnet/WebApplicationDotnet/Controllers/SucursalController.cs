@@ -24,5 +24,20 @@ namespace WebApplicationDotnet.Controllers
             BussinesLayer.SucursalBL sucursal = new BussinesLayer.SucursalBL();
             return sucursal.filtrarSucursal(nombre);
         }
+
+
+        public List<EntityLayer.SucursalEL> filtrarSucursalesConDireccion(SucursalEL mySucursal)
+        {
+            BussinesLayer.SucursalBL sucursal = new BussinesLayer.SucursalBL();
+            return sucursal.filtrarSucursalConDireccion(mySucursal);
+        }
+
+
+        public int guardarDatos(SucursalEL mySucursal)
+        {
+            BussinesLayer.SucursalBL sucursal = new BussinesLayer.SucursalBL();
+            return sucursal.guardarDatos(mySucursal);
+            //return 1;
+        }
     }
 }
