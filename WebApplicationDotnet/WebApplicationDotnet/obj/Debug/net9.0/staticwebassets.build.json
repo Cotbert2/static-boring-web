@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d9E0hWX1Zsq/0IMtTPceW2bCZuV8/yECCOE23J24fiY=",
+  "Hash": "Gh5JQ67myOfxd+q768zIKnjQ6G1TsmM6aAcxTgwq/rY=",
   "Source": "WebApplicationDotnet",
   "BasePath": "_content/WebApplicationDotnet",
   "Mode": "Default",
@@ -1130,12 +1130,12 @@
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-pqlelj5oas.gz",
+      "Identity": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-blk0bm8zbm.gz",
       "SourceId": "WebApplicationDotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApplicationDotnet",
-      "RelativePath": "js/TipoMedicamento#[.{fingerprint=pqlelj5oas}]?.js.gz",
+      "RelativePath": "js/TipoMedicamento#[.{fingerprint=blk0bm8zbm}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1144,8 +1144,8 @@
       "RelatedAsset": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hyjrecd3hp",
-      "Integrity": "N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM=",
+      "Fingerprint": "j2byr9wxdz",
+      "Integrity": "i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js"
@@ -1669,8 +1669,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pqlelj5oas",
-      "Integrity": "b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c=",
+      "Fingerprint": "blk0bm8zbm",
+      "Integrity": "wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\TipoMedicamento.js"
@@ -5024,13 +5024,13 @@
       ]
     },
     {
-      "Route": "js/TipoMedicamento.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-pqlelj5oas.gz",
+      "Route": "js/TipoMedicamento.blk0bm8zbm.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-blk0bm8zbm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000816326531"
+          "Quality": "0.000819000819"
         }
       ],
       "ResponseHeaders": [
@@ -5040,19 +5040,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1224"
+          "Value": "1220"
         },
         {
           "Name": "ETag",
-          "Value": "\"N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM=\""
+          "Value": "\"i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -5068,18 +5068,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c=\""
+          "Value": "W/\"wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "blk0bm8zbm"
+        },
+        {
+          "Name": "label",
+          "Value": "js/TipoMedicamento.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c="
+          "Value": "sha256-wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw="
         }
       ]
     },
     {
-      "Route": "js/TipoMedicamento.js",
+      "Route": "js/TipoMedicamento.blk0bm8zbm.js",
       "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5089,7 +5097,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5002"
+          "Value": "4931"
         },
         {
           "Name": "Content-Type",
@@ -5097,121 +5105,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c=\""
+          "Value": "\"wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c="
-        }
-      ]
-    },
-    {
-      "Route": "js/TipoMedicamento.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-pqlelj5oas.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1224"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM="
-        }
-      ]
-    },
-    {
-      "Route": "js/TipoMedicamento.pqlelj5oas.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-pqlelj5oas.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000816326531"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1224"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqlelj5oas"
+          "Value": "blk0bm8zbm"
         },
         {
           "Name": "label",
@@ -5219,13 +5127,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c="
+          "Value": "sha256-wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw="
         }
       ]
     },
     {
-      "Route": "js/TipoMedicamento.pqlelj5oas.js",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+      "Route": "js/TipoMedicamento.blk0bm8zbm.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-blk0bm8zbm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5234,7 +5142,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5002"
+          "Value": "1220"
         },
         {
           "Name": "Content-Type",
@@ -5242,56 +5150,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c=\""
+          "Value": "\"i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pqlelj5oas"
-        },
-        {
-          "Name": "label",
-          "Value": "js/TipoMedicamento.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-b+mlxs+oudfbx4R+Z9c5URtMwjqhpDoMKgzwbxDlU+c="
-        }
-      ]
-    },
-    {
-      "Route": "js/TipoMedicamento.pqlelj5oas.js.gz",
-      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-pqlelj5oas.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1224"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 19:51:17 GMT"
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5309,7 +5172,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqlelj5oas"
+          "Value": "blk0bm8zbm"
         },
         {
           "Name": "label",
@@ -5317,7 +5180,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-N1SiapQe+x+zbnChh+wdKJ6LQ6FxoNhe80YEBq3a6ZM="
+          "Value": "sha256-i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg="
+        }
+      ]
+    },
+    {
+      "Route": "js/TipoMedicamento.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-blk0bm8zbm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000819000819"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw="
+        }
+      ]
+    },
+    {
+      "Route": "js/TipoMedicamento.js",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\wwwroot\\js\\TipoMedicamento.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wVTNPdSgF6Da2cbvxaW9s9KeLNV6wPhR2O9UVuDv5gw="
+        }
+      ]
+    },
+    {
+      "Route": "js/TipoMedicamento.js.gz",
+      "AssetFile": "C:\\Users\\mateo\\Development\\static-boring-web\\WebApplicationDotnet\\WebApplicationDotnet\\obj\\Debug\\net9.0\\compressed\\t3n8wjuaqb-blk0bm8zbm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1220"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 20:10:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i2sNoQUfxqE1AWmWsOoj3boOJmnh5MqP2NQwud1iadg="
         }
       ]
     },

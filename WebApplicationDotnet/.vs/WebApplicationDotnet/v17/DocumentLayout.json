@@ -146,11 +146,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -162,8 +166,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Controllers\\TipoMedicamento.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:18:39.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T20:18:39.265Z"
             },
             {
               "$type": "Document",
@@ -175,8 +178,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:14:31.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T19:14:31.186Z"
             },
             {
               "$type": "Document",
@@ -188,8 +190,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T19:55:45.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T19:55:45.442Z"
             },
             {
               "$type": "Document",
@@ -201,8 +202,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\generic.js",
               "ViewState": "AgIAAJwAAAAAAAAAAAAAAKsAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-07T19:52:46.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T19:52:46.661Z"
             },
             {
               "$type": "Document",
@@ -214,8 +214,7 @@
               "RelativeToolTip": "BussinesLayer\\TipoMedicamentoBL.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwCQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T04:05:42.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T04:05:42.677Z"
             },
             {
               "$type": "Document",
@@ -227,8 +226,7 @@
               "RelativeToolTip": "DataLayer\\TipoMedicamentoDL.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAvwJkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:27:21.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T20:27:21.3Z"
             },
             {
               "$type": "Document",
@@ -253,12 +251,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Controllers\\SucursalController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAuwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:42:49.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-02-12T19:42:49.893Z"
             },
             {
               "$type": "Document",
@@ -270,8 +263,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Views\\Laboratorio\\Index.cshtml",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T19:59:37.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T19:59:37.257Z"
             },
             {
               "$type": "Document",
@@ -283,8 +275,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\wwwroot\\js\\sucursales.js",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-12T19:45:41.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T19:45:41.612Z"
             },
             {
               "$type": "Document",
@@ -296,8 +287,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\Index.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T19:58:26.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T19:58:26.651Z"
             },
             {
               "$type": "Document",
@@ -309,8 +299,7 @@
               "RelativeToolTip": "DataLayer\\DatabaseConnection .cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:05:17.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T20:05:17.352Z"
             },
             {
               "$type": "Document",
@@ -322,8 +311,7 @@
               "RelativeToolTip": "EntityLayer\\TipoMedicamentoEL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:33:55.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T19:33:55.223Z"
             },
             {
               "$type": "Document",
@@ -335,8 +323,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\TipoMedicamento.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T04:09:37.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T04:09:37.703Z"
             },
             {
               "$type": "Document",
@@ -348,8 +335,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Controllers\\MedicamentoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T19:59:33.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T19:59:33.365Z"
             },
             {
               "$type": "Document",
@@ -361,8 +347,7 @@
               "RelativeToolTip": "WebApplicationDotnet\\Views\\TipoMedicamento\\Inicio.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T14:27:33.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T14:27:33.898Z"
             },
             {
               "$type": "Document",
@@ -374,8 +359,7 @@
               "RelativeToolTip": "DataLayer\\LaboratorioDL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:51:31.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T19:51:31.204Z"
             },
             {
               "$type": "Document",
